@@ -134,6 +134,7 @@ Today, this public draft already contains:
 - core contracts
 - a minimal kernel
 - a governance pack
+- an explicit token policy
 - a quality baseline
 - a first learnings path
 - a reusable starter-pack slice
@@ -147,9 +148,10 @@ If this is your first time here, start with:
 1. `docs/00-overview.md`
 2. `docs/architecture.md`
 3. `docs/governance.md`
-4. `docs/quality.md`
-5. `examples/`
-6. `starter-pack/`
+4. `docs/token-policy.md`
+5. `docs/quality.md`
+6. `examples/`
+7. `starter-pack/`
 
 ---
 

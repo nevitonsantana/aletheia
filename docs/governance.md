@@ -40,6 +40,22 @@ Ele é um **policy pack específico para software development**, dentro do guard
 
 ---
 
+## Relação com token discipline
+
+O `Governance Pack` diz quando o trabalho pode ou não pode seguir.
+
+A `Token Policy` complementa isso dizendo:
+
+- quanto contexto deve entrar
+- em que momento ele deve entrar
+- quando expansão de contexto é justificável
+
+Leitura recomendada em conjunto:
+
+- `docs/token-policy.md`
+
+---
+
 ## Por que isso importa
 
 Sem governança explícita, a IA pode:

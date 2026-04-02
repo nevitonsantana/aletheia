@@ -8,6 +8,7 @@ The public repository is organized around three blocks:
    - contracts
    - engine
    - policies
+   - token discipline
    - examples
    - tests
 
