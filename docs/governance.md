@@ -53,6 +53,7 @@ A `Token Policy` complementa isso dizendo:
 Leitura recomendada em conjunto:
 
 - `docs/token-policy.md`
+- `docs/durable-decisions.md`
 
 ---
 

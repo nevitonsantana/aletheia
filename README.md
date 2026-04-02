@@ -150,9 +150,10 @@ If this is your first time here, start with:
 2. `docs/architecture.md`
 3. `docs/governance.md`
 4. `docs/token-policy.md`
-5. `docs/quality.md`
-6. `examples/`
-7. `starter-pack/`
+5. `docs/durable-decisions.md`
+6. `docs/quality.md`
+7. `examples/`
+8. `starter-pack/`
 
 ---
 

@@ -45,6 +45,7 @@ Current Alpha 1 baseline artifacts now include:
 
 - `docs/token-policy.md`
 - `scripts/check-governance.sh`
+- `docs/durable-decisions.md`
 
 ---
 
