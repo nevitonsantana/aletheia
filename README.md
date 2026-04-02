@@ -157,7 +157,8 @@ If this is your first time here, start with:
 
 The next steps are:
 
-- keep polishing the public narrative
-- strengthen the starter-pack carefully
-- tighten release quality
-- evolve this alpha into a more complete standalone public release
+- harden the Alpha 1 governance baseline
+- keep validating the Crisis Monitor pilot
+- convert pilot learnings into framework improvements
+- start using AletheIA to improve AletheIA itself
+- strengthen adoption only after the core and pilots are solid
