@@ -178,6 +178,7 @@ The first explicit bridge into Alpha 2 is:
 
 - `docs/self-application.md`
 - `docs/pilot-crisis-monitor.md`
+- `docs/pilot-conversion.md`
 
 This document explains how AletheIA should increasingly use its own operating logic to guide changes in the AletheIA repository itself.
 

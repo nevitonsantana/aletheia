@@ -167,6 +167,10 @@ Later versions may connect self-application more directly to:
 - pilot-to-framework scorecards
 - project extension patterns
 
+See also:
+
+- `docs/pilot-conversion.md`
+
 Alpha 2 does not need all of that on day one.
 
 It only needs to make the loop visible and repeatable.
