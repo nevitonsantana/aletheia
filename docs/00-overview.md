@@ -26,6 +26,8 @@ The public repository is organized around three blocks:
    - what was learned in the real test field
    - how pilot learnings return into framework evolution
 
+The Crisis Monitor pilot is the first concrete example of this bridge.
+
 The key idea is simple:
 
 AletheIA should be reusable outside the original pilot while still preserving the lessons learned from that pilot.

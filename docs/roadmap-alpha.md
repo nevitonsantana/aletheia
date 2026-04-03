@@ -86,6 +86,7 @@ It is closing the loop between:
 Current Alpha 2 bridge artifacts now include:
 
 - `docs/self-application.md`
+- `docs/pilot-crisis-monitor.md`
 
 ---
 
