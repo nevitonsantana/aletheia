@@ -135,13 +135,13 @@ AletheIA should become easier to:
 ## Alpha 4 — Orchestrated Handoffs & Multi-Agent Continuity
 
 Focus:
-- make handoffs between agents explicit, reusable, and increasingly automatable
+- make handoffs between agents explicit, reusable, model-agnostic, and increasingly automatable
 
 Includes:
 - structured inter-agent handoff contracts
 - handoff generation patterns from real work items
 - clearer separation between human-facing summaries and agent-facing restart packages
-- stronger continuity between Codex, Claude Code, and other agent contexts
+- model-agnostic continuity patterns that do not depend on one LLM or coding tool
 - starter-pack guidance for cross-agent execution flows
 - reusable patterns for passing scope, validation, risks, and next action across agents
 
@@ -153,6 +153,7 @@ By the end of Alpha 4, AletheIA should already show that:
 - one agent can stop at its boundary and prepare the next agent's work clearly
 - cross-agent continuity can happen without relying on hidden thread memory
 - handoff artifacts can be generated in a repeatable way from real project work
+- the handoff structure can work across different LLMs and agent shells without changing its core meaning
 
 ### Notes
 
@@ -171,6 +172,7 @@ Potential first artifacts for this phase may include:
 - agent-facing handoff templates
 - project-level handoff conventions
 - automated or semi-automated handoff creation from completed work items
+- execution-scope fields such as allowed files, forbidden files, allowed data, semantic guardrails, acceptance criteria, and expected response format
 
 ---
 
