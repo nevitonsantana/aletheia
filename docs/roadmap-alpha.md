@@ -103,6 +103,7 @@ Includes:
 - better onboarding
 - stronger contributor guidance
 - stronger starter-pack
+- clearer guidance for applying AletheIA in an existing project
 - cleaner release structure
 - reusable domain governance packs
 - tighter release hygiene
@@ -146,11 +147,9 @@ Across all three alphas, AletheIA should preserve a few boundaries:
 
 ## Near-term priority order
 
-1. consolidate the Alpha 2 bridge
-   - self-application
-   - Crisis Monitor pilot
-   - pilot conversion
-   - project extension pattern
-2. continue validating the Crisis Monitor pilot and nearby real slices
-3. convert pilot learnings into framework updates
-4. strengthen adoption and ecosystem only after the core and pilots are solid
+1. open the first Alpha 3 adoption artifacts
+   - applying AletheIA to an existing project
+   - stronger onboarding path
+2. keep the Alpha 2 bridge coherent while adoption grows
+3. continue validating the Crisis Monitor pilot and nearby real slices
+4. convert pilot learnings into framework updates

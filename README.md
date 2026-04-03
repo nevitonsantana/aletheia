@@ -160,8 +160,9 @@ If this is your first time here, start with:
 9. `docs/pilot-crisis-monitor.md`
 10. `docs/pilot-conversion.md`
 11. `docs/project-extension-pattern.md`
-12. `examples/`
-13. `starter-pack/`
+12. `docs/apply-to-existing-project.md`
+13. `examples/`
+14. `starter-pack/`
 
 ---
 
@@ -173,7 +174,7 @@ The next steps are:
 - keep validating the Crisis Monitor pilot and adjacent real slices
 - keep converting pilot learnings into framework improvements
 - keep using AletheIA to improve AletheIA itself
-- strengthen adoption only after the core and pilots are solid
+- begin the first Alpha 3 adoption artifacts without losing the core/pilot discipline
 
 ---
 
@@ -185,8 +186,13 @@ The first explicit bridge into Alpha 2 is:
 - `docs/pilot-crisis-monitor.md`
 - `docs/pilot-conversion.md`
 - `docs/project-extension-pattern.md`
+- `docs/apply-to-existing-project.md`
 
 Together, these documents explain how AletheIA should evolve itself, learn from pilots, and preserve a clear boundary between framework core and local project extensions.
+
+The first adoption-facing guide after this bridge is:
+
+- `docs/apply-to-existing-project.md`
 
 ---
 
