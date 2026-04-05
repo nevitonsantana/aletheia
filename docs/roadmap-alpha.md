@@ -177,6 +177,48 @@ Potential first artifacts for this phase may include:
 
 ---
 
+## Alpha 5 — Structured Risk Inference & Evidence-Oriented Validation
+
+Focus:
+- make higher-risk decisions more reviewable before execution through structured, evidence-oriented inference
+
+Includes:
+- a conditional inference step for higher-risk work
+- compact inference artifacts with premises, assumptions, invariants, risks, unknowns, and test gaps
+- better connection between semantic risk and validation design
+- stronger rationale preservation across high-stakes handoffs
+- experimental use in code and semantic-risk scenarios before broader expansion
+
+### What Alpha 5 must prove
+
+By the end of Alpha 5, AletheIA should already show that:
+
+- higher-risk changes can be reasoned about more explicitly before execution
+- semantic risks can be surfaced without pretending to prove formal correctness
+- evidence, assumptions, and unknowns can be captured in a reusable artifact
+- risk-oriented suggested tests can improve validation quality
+- the capability can remain selective instead of becoming universal ceremony
+
+### Notes
+
+Alpha 5 should not be framed as formal verification.
+It should be framed as structured, reviewable inference for cases where raw confidence is not enough.
+
+The key move in Alpha 5 is inserting a conditional step such as:
+
+`intent -> context -> decision -> [if triggered: inference] -> execution -> validation -> learning`
+
+This phase should begin as an experimental capability, not a mandatory step for every workflow.
+
+Potential first artifacts for this phase may include:
+
+- `docs/structured-risk-inference.md`
+- a starter-pack template for inference artifacts
+- trigger guidance for when the capability should run
+- pilot scenarios focused on refactors, patch review, or semantic regression risk
+
+---
+
 ## Cross-Alpha principles
 
 Across all three alphas, AletheIA should preserve a few boundaries:
@@ -200,3 +242,4 @@ Across all three alphas, AletheIA should preserve a few boundaries:
 3. continue validating the Crisis Monitor pilot and nearby real slices
 4. convert pilot learnings into framework updates
 5. shape Alpha 4 around orchestrated handoffs and cross-agent continuity
+6. frame Alpha 5 as experimental structured risk inference rather than strong formal verification

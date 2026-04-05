@@ -177,6 +177,7 @@ The next steps are:
 - keep using AletheIA to improve AletheIA itself
 - keep opening Alpha 3 adoption artifacts without losing the core/pilot discipline
 - define the future Alpha 4 direction for orchestrated, model-agnostic handoffs between agents
+- keep future Alpha 5 work framed as evidence-oriented inference for higher-risk tasks
 
 ---
 
@@ -194,6 +195,18 @@ Together, these documents explain how AletheIA should evolve itself, learn from 
 The first adoption-facing guide after this bridge is:
 
 - `docs/apply-to-existing-project.md`
+
+---
+
+## Future direction after Alpha 4
+
+AletheIA may eventually need a further phase focused on structured risk inference before execution in higher-risk tasks.
+
+That future direction should stay evidence-oriented and conditional, rather than claiming strong formal verification that the framework does not yet provide.
+
+See also:
+
+- `docs/structured-risk-inference.md`
 
 ---
 
