@@ -53,6 +53,7 @@ Before changing anything, make explicit:
 See also:
 
 - `docs/project-extension-pattern.md`
+- `starter-pack/templates/project-extension-template.md`
 
 ### 3. Add the minimum operating layer
 
@@ -107,6 +108,7 @@ If a team wants the smallest practical AletheIA starting point, begin with:
 4. `docs/durable-decisions.md`
 5. `docs/project-extension-pattern.md`
 6. one starter-pack guide or template that matches the first pilot
+7. `starter-pack/templates/project-extension-template.md` if the local extension boundary needs to be documented explicitly
 
 This is often enough to begin without pretending the whole framework is already fully installed.
 

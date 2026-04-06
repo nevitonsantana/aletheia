@@ -227,7 +227,6 @@ By adding the project extension pattern, AletheIA should show that:
 
 Later versions may add:
 
-- a starter-pack template for project extensions
 - explicit project-extension examples
 - mapping between local rules and reusable core rules
 - more than one pilot to compare extension patterns across projects

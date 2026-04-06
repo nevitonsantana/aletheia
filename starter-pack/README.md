@@ -22,3 +22,10 @@ If you are starting from an existing repository rather than a blank setup, read:
 
 - `docs/getting-started.md`
 - `docs/apply-to-existing-project.md`
+
+
+## New template
+
+If you are adopting AletheIA inside a real project and need to make the local layer explicit, use:
+
+- `starter-pack/templates/project-extension-template.md`
