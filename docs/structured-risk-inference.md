@@ -211,6 +211,11 @@ That makes it easier for the next agent to:
 
 ## Use cases
 
+For recommended first pilots, see:
+
+- `docs/inference-pilot-scenarios.md`
+
+
 ### 1. Patch review
 
 Compare likely before/after behavior without relying only on raw intuition.
