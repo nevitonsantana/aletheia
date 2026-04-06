@@ -151,7 +151,7 @@ Today, this public draft already contains:
 - an explicit Alpha 2 bridge for self-application, pilot conversion, and project extension
 - an Alpha 3 adoption baseline for getting started, existing-project application, contribution guidance, and starter-pack reuse
 - an Alpha 4 handoff baseline for model-agnostic restart packages, project conventions, and semi-automated handoff capture
-- an emerging Alpha 5 baseline for structured risk inference in higher-risk work
+- an Alpha 5 experimental baseline for structured risk inference in higher-risk work, including concrete example artifacts
 
 In practical terms, that currently includes:
 
@@ -166,6 +166,7 @@ In practical terms, that currently includes:
 - a first learnings path
 - a reusable starter-pack slice
 - a first structured risk inference slice
+- concrete example artifacts for bounded semantic-risk scenarios
 
 ---
 
@@ -199,7 +200,8 @@ If this is your first time here, start with:
 24. `starter-pack/guides/inference-trigger-guidance.md`
 25. `starter-pack/guides/inference-artifact-generation.md`
 26. `docs/inference-pilot-scenarios.md`
-27. `examples/`
+27. `examples/structured-risk-inference/README.md`
+28. `examples/`
 
 ---
 
@@ -207,11 +209,11 @@ If this is your first time here, start with:
 
 The next steps are:
 
-- consolidate the current Alpha 5 inference baseline without losing the Alpha 4 handoff baseline or the Alpha 3 adoption gains
+- keep the current Alpha 5 baseline coherent and example-driven without losing the Alpha 4 handoff baseline or the Alpha 3 adoption gains
 - keep validating the Crisis Monitor pilot and adjacent real slices
 - keep converting pilot learnings into framework improvements
 - keep using AletheIA to improve AletheIA itself
-- keep Alpha 5 proportional, selective, and grounded in real semantic-risk scenarios
+- keep Alpha 5 proportional, selective, and grounded in bounded semantic-risk scenarios
 - let Alpha 6, Alpha 7, and future domain packs remain future-facing layers rather than near-term core work
 
 ---
@@ -222,7 +224,7 @@ The next steps are:
 - Alpha 2 established the pilot, self-application, and conversion bridge.
 - Alpha 3 is making the framework easier to adopt and contribute to.
 - Alpha 4 is making inter-agent continuity explicit, reusable, and more operational.
-- Alpha 5 is becoming an experimental baseline for decision-quality in higher-risk work.
+- Alpha 5 now provides an experimental baseline for decision-quality in higher-risk work.
 - Alpha 6 is the future distribution phase for presets, bundles, and adapters.
 - Alpha 7 is a later tooling follow-up for optional bootstrap and delivery automation.
 
@@ -261,6 +263,7 @@ The current Alpha 5 experimental baseline now adds:
 - `starter-pack/guides/inference-trigger-guidance.md`
 - `starter-pack/guides/inference-artifact-generation.md`
 - `docs/inference-pilot-scenarios.md`
+- `examples/structured-risk-inference/README.md`
 
 ---
 

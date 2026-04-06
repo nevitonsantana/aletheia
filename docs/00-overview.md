@@ -65,3 +65,13 @@ The current Alpha 5 experimental baseline is now anchored by:
 - `starter-pack/guides/inference-trigger-guidance.md`
 - `starter-pack/guides/inference-artifact-generation.md`
 - `docs/inference-pilot-scenarios.md`
+- `examples/structured-risk-inference/README.md`
+
+This means Alpha 5 can now be read across:
+
+- concept
+- template
+- trigger discipline
+- generation method
+- pilot posture
+- concrete example artifacts

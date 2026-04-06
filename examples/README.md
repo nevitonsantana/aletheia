@@ -46,3 +46,4 @@ O alpha agora já cobre:
 - `ask_human`
 - `block`
 - `block + learning`
+- examples of structured risk inference for bounded semantic-risk scenarios

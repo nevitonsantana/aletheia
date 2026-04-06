@@ -224,6 +224,9 @@ Current Alpha 5 baseline artifacts now include:
 - `starter-pack/guides/inference-trigger-guidance.md`
 - `starter-pack/guides/inference-artifact-generation.md`
 - `docs/inference-pilot-scenarios.md`
+- `examples/structured-risk-inference/README.md`
+
+Together, these artifacts now define Alpha 5 as a concept-plus-examples baseline rather than only a template-and-guidance layer.
 
 ---
 
@@ -365,6 +368,7 @@ Across all phases, AletheIA should preserve a few boundaries:
    - trigger guidance
    - generation guide
    - pilot scenarios
+   - example artifacts
    - alignment with Alpha 4 handoffs and Alpha 3 adoption assets
 2. keep the current Alpha 4 handoff baseline coherent
    - concept doc
