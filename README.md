@@ -143,6 +143,7 @@ Today, this public draft already contains:
 - a reusable starter-pack slice
 - an explicit Alpha 2 bridge for self-application, pilot conversion, and project extension
 - initial Alpha 3 adoption artifacts for getting started, existing-project application, contribution guidance, and starter-pack reuse
+- the first concrete Alpha 4 handoff assets for model-agnostic restart packages between agents
 
 ---
 
@@ -166,7 +167,9 @@ If this is your first time here, start with:
 14. `CONTRIBUTING.md`
 15. `starter-pack/`
 16. `starter-pack/templates/project-extension-template.md`
-17. `examples/`
+17. `docs/agent-handoffs.md`
+18. `starter-pack/templates/agent-handoff-template.md`
+19. `examples/`
 
 ---
 
@@ -174,11 +177,11 @@ If this is your first time here, start with:
 
 The next steps are:
 
-- keep expanding Alpha 3 adoption artifacts without losing the core/pilot discipline
+- consolidate the first Alpha 4 handoff baseline without losing the Alpha 3 adoption gains
 - keep validating the Crisis Monitor pilot and adjacent real slices
 - keep converting pilot learnings into framework improvements
 - keep using AletheIA to improve AletheIA itself
-- shape Alpha 4 around orchestrated, model-agnostic handoffs between agents
+- extend Alpha 4 from concept + template into more repeatable handoff operating patterns
 - keep Alpha 5 framed as evidence-oriented inference for higher-risk tasks
 
 ---
@@ -194,12 +197,17 @@ The first explicit bridge into Alpha 2 is:
 
 Together, these documents explain how AletheIA should evolve itself, learn from pilots, and preserve a clear boundary between framework core and local project extensions.
 
-The first adoption-facing assets after this bridge are:
+The current Alpha 3 adoption baseline after this bridge is:
 
 - `docs/getting-started.md`
 - `docs/apply-to-existing-project.md`
 - `CONTRIBUTING.md`
 - `starter-pack/templates/project-extension-template.md`
+
+The first Alpha 4 handoff baseline now adds:
+
+- `docs/agent-handoffs.md`
+- `starter-pack/templates/agent-handoff-template.md`
 
 ---
 
