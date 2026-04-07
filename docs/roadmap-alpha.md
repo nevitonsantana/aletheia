@@ -295,12 +295,16 @@ It may eventually include:
 
 ### Notes
 
-Alpha 7 should only become active after presets, adapters, and adoption modes are already well-defined.
+Alpha 7 should only become active after presets, adapters, adoption modes, and delivery mappings are already well-defined.
 
 It should remain:
 - provider-agnostic
 - optional
 - clearly outside the framework core itself
+
+Current first Alpha 7 artifact now includes:
+
+- `docs/bootstrap-principles.md`
 
 ---
 
