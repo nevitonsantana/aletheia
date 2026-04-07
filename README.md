@@ -296,6 +296,7 @@ See also:
 - `docs/preset-taxonomy.md`
 - `docs/adapter-taxonomy.md`
 - `docs/adoption-mode-guidance.md`
+- `docs/delivery-mapping-examples.md`
 - `docs/domain-governance-packs.md`
 - `docs/web-app-security-trust-boundaries.md`
 - `docs/ai-agent-security-prompt-injection.md`

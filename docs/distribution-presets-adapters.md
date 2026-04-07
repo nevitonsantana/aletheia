@@ -147,12 +147,10 @@ Current Alpha 6 artifacts now include:
 - `docs/preset-taxonomy.md`
 - `docs/adapter-taxonomy.md`
 - `docs/adoption-mode-guidance.md`
+- `docs/delivery-mapping-examples.md`
 
-Likely next artifacts for this phase may include:
+These artifacts now begin to define Alpha 6 as a model for shape, delivery surface, operating depth, and cross-surface meaning preservation before any heavier tooling is introduced.
 
-- delivery mapping examples across environments
-
-These should make the distribution model explicit before any heavier tooling is introduced.
 
 ---
 
