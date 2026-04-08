@@ -170,6 +170,7 @@ Alpha 7 is starting well when:
 
 ## Suggested next reading
 
+- `docs/bootstrap-generator-contract.md`
 - `docs/roadmap-alpha.md`
 - `docs/distribution-presets-adapters.md`
 - `docs/preset-taxonomy.md`

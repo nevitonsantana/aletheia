@@ -18,8 +18,9 @@ Delivery tooling boundaries define limits.
 
 But teams also need examples of what a healthy output might look like when tooling stays inside those limits.
 
-These examples are not generator contracts.
+These examples are not generator contracts by themselves.
 They are illustrative output shapes for what Alpha 7 should aim for if and when it emits files or packages.
+A separate generator contract can later define the minimum input/output agreement behind those shapes.
 
 ---
 
@@ -194,6 +195,7 @@ Alpha 7 output examples are healthy when:
 
 - `docs/bootstrap-principles.md`
 - `docs/delivery-tooling-boundaries.md`
+- `docs/bootstrap-generator-contract.md`
 - `docs/roadmap-alpha.md`
 - `docs/distribution-presets-adapters.md`
 - `docs/preset-taxonomy.md`
