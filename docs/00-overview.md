@@ -19,6 +19,7 @@ The public repository is organized around three blocks:
    - checklists
    - templates
    - branch, context, quality, and decision discipline
+   - advisory model-strategy guidance for real project fleets
 
 3. **pilot materials**
    - why the framework emerged
@@ -112,6 +113,8 @@ This means the current operational-composition baseline can now be read across:
 - optional filesystem-based context routing experiments
 - round-based maintenance guidance over existing work-slice contracts
 - regression-aware continuation and reusable learning across rounds
+
+Alongside that operational layer, the starter-pack now also carries an advisory-only model-strategy guidance slice that helps projects map task shape, capability profile, reasoning depth, and trust / hosting posture into their local model fleets without making vendor choice part of the framework core.
 
 This layer sits around the Alpha 4 and Alpha 5 baselines without becoming a new core contract family of its own.
 These materials remain intentionally smaller than the core contracts.

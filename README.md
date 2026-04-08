@@ -170,9 +170,10 @@ In practical terms, that currently includes:
 - a reusable starter-pack slice
 - an advisory-only model-strategy guidance slice for task shape, capability profile, reasoning depth, and trust / hosting fit
 - a first structured risk inference slice
+- a first iterative-maintenance governance slice for round-based continuation, regression-aware gates, and reusable learning across rounds
 - concrete example artifacts for bounded semantic-risk scenarios
 - a first concrete distribution baseline for packaging shape, delivery surface, adoption depth, and meaning preservation across surfaces
-- a lightweight operational-composition baseline for work slices, risk-to-gate mapping, compact handoff continuity, and optional filesystem context-routing experiments
+- a lightweight operational-composition baseline for work slices, risk-to-gate mapping, compact handoff continuity, iterative maintenance guidance, and optional filesystem context-routing experiments
 - a first Alpha 7 tooling baseline across principles, boundaries, output shapes, generator contract, and output contract
 
 ---
@@ -231,6 +232,8 @@ The next steps are:
 - keep using AletheIA to improve AletheIA itself
 - keep Alpha 5 proportional, selective, and grounded in bounded semantic-risk scenarios
 - keep the operational-composition baseline lightweight, teachable, and clearly outside the core contracts
+- keep the new model-strategy guidance advisory-only, provider-agnostic in the framework, and translated locally by each project
+- keep iterative-maintenance guidance focused on round legibility, regression-aware continuation, and reusable learning rather than benchmark imitation
 - keep experimental workspace context routing optional, inspectable, and clearly non-canonical
 - keep Alpha 6 focused on distribution clarity rather than tooling promises
 - keep Alpha 7 small, bounded, and tooling-light even as its baseline becomes clearer
@@ -247,7 +250,8 @@ The next steps are:
 - Alpha 5 now provides an experimental baseline for decision-quality in higher-risk work.
 - Alpha 6 now provides a first concrete distribution baseline for presets, adapters, adoption modes, and delivery mappings.
 - Alpha 7 now includes bootstrap principles, delivery-tooling boundaries, output examples, a first future-facing generator contract, and a first future-facing delivery output contract for optional automation.
-- A current operational-composition baseline now makes bounded work, restartable handoffs, and risk-sensitive validation more tangible without expanding the core contracts.
+- A current operational-composition baseline now makes bounded work, restartable handoffs, risk-sensitive validation, iterative maintenance, and regression-aware continuation more tangible without expanding the core contracts.
+- The starter-pack now also includes advisory-only model-strategy guidance for matching task shape, capability profile, reasoning depth, and trust / hosting constraints without turning model choice into framework enforcement.
 
 ---
 

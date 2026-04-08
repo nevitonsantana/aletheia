@@ -61,3 +61,8 @@ O alpha agora já cobre:
 - examples of structured risk inference for bounded semantic-risk scenarios
 - advisory-only model-strategy examples for task-to-model-fit guidance
 - iterative maintenance examples where regression changes the round gate instead of remaining only a final observation
+
+Together, these newer examples make the repo more practical in two directions:
+
+- how to choose model fit without making vendor choice part of the core
+- how to carry maintenance work across rounds without treating regression as a purely final metric

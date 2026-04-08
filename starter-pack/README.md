@@ -85,6 +85,11 @@ If you want to make bounded work more tangible without changing the core contrac
 This baseline is intentionally smaller than the core contracts and mainly reinforces Alpha 4 continuity plus Alpha 5 validation posture.
 It now also makes iterative maintenance rounds and regression-aware continuation more tangible without changing the core contracts.
 
+Taken together, the current starter-pack now covers both:
+
+- advisory model strategy for choosing fit-for-task model profiles
+- operational maintenance guidance for carrying bounded work safely across repeated rounds
+
 ## Experimental workspace context routing
 
 If you want to test a filesystem-based context-routing pattern as a local experiment, read:

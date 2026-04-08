@@ -343,6 +343,8 @@ Together, these artifacts now define a first operational-composition baseline an
 - test filesystem-based context routing as an optional starter-pack experiment
 - make iterative maintenance rounds more legible through composed slices, regression-aware gates, and reusable learning
 
+Alongside that operational layer, the starter-pack now also carries an advisory-only model-strategy guidance slice for matching task shape, capability profile, reasoning depth, and trust / hosting posture without turning model choice into a framework-level rule.
+
 ---
 
 ## Future Track — Reusable Domain Governance Packs
