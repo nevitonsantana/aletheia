@@ -56,7 +56,7 @@ If you are exploring the current Alpha 5 structured-risk-inference baseline for 
 - `docs/inference-pilot-scenarios.md`
 
 
-## Operational composition layer
+## Current operational-composition baseline
 
 If you want to make bounded work more tangible without changing the core contracts, read:
 
@@ -66,6 +66,8 @@ If you want to make bounded work more tangible without changing the core contrac
 - `examples/work-slices/standard-slice/README.md`
 - `examples/handoffs/compact-reviewable-handoff.md`
 - `examples/handoffs/high-stakes-handoff.md`
+
+This baseline is intentionally smaller than the core contracts and mainly reinforces Alpha 4 continuity plus Alpha 5 validation posture.
 
 ## Experimental workspace context routing
 

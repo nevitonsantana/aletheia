@@ -91,7 +91,7 @@ This means Alpha 6 can now be read across:
 - adoption depth
 - cross-surface meaning preservation
 
-The current low-regret operational composition layer is now anchored by:
+The current low-regret operational-composition baseline is now anchored by:
 
 - `docs/work-slice-pattern.md`
 - `starter-pack/templates/work-slice-template.md`
@@ -101,11 +101,12 @@ The current low-regret operational composition layer is now anchored by:
 - `examples/handoffs/high-stakes-handoff.md`
 - `starter-pack/experiments/workspace-context-routing/README.md`
 
-This means the current operational layer can now be read across:
+This means the current operational-composition baseline can now be read across:
 
 - composed work units
 - risk-sensitive gate selection
 - stronger restart-package continuity
 - optional filesystem-based context routing experiments
 
+This layer sits around the Alpha 4 and Alpha 5 baselines without becoming a new core contract family of its own.
 These materials remain intentionally smaller than the core contracts.

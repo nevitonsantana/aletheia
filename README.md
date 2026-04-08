@@ -153,7 +153,7 @@ Today, this public draft already contains:
 - an Alpha 4 handoff baseline for model-agnostic restart packages, project conventions, and semi-automated handoff capture
 - an Alpha 5 experimental baseline for structured risk inference in higher-risk work, including concrete example artifacts
 - an Alpha 6 distribution baseline for presets, adapters, adoption modes, and cross-surface delivery mappings
-- a low-regret operational composition layer for work slices, risk-to-gate mapping, and stronger restart-package examples
+- a current operational-composition baseline for work slices, risk-to-gate mapping, stronger restart-package examples, and optional filesystem context-routing experiments
 
 In practical terms, that currently includes:
 
@@ -170,7 +170,7 @@ In practical terms, that currently includes:
 - a first structured risk inference slice
 - concrete example artifacts for bounded semantic-risk scenarios
 - a first concrete distribution baseline for packaging shape, delivery surface, adoption depth, and meaning preservation across surfaces
-- a lightweight operational-composition layer for work slices, risk-to-gate mapping, and compact handoff continuity
+- a lightweight operational-composition baseline for work slices, risk-to-gate mapping, compact handoff continuity, and optional filesystem context-routing experiments
 
 ---
 
@@ -224,8 +224,8 @@ The next steps are:
 - keep converting pilot learnings into framework improvements
 - keep using AletheIA to improve AletheIA itself
 - keep Alpha 5 proportional, selective, and grounded in bounded semantic-risk scenarios
-- keep the work-slice, risk-to-gate, and handoff-composition layer lightweight and outside the core contracts
-- keep experimental workspace context routing optional and clearly non-canonical
+- keep the operational-composition baseline lightweight, teachable, and clearly outside the core contracts
+- keep experimental workspace context routing optional, inspectable, and clearly non-canonical
 - keep Alpha 6 focused on distribution clarity rather than tooling promises
 - let Alpha 7 and future domain packs remain future-facing layers rather than near-term core work
 
@@ -240,7 +240,7 @@ The next steps are:
 - Alpha 5 now provides an experimental baseline for decision-quality in higher-risk work.
 - Alpha 6 now provides a first concrete distribution baseline for presets, adapters, adoption modes, and delivery mappings.
 - Alpha 7 now begins with bootstrap principles and delivery-tooling boundaries for optional automation.
-- A low-regret operational composition layer is now emerging through work slices, risk-to-gate mapping, stronger handoff examples, and optional workspace-context-routing experiments.
+- A current operational-composition baseline now makes bounded work, restartable handoffs, and risk-sensitive validation more tangible without expanding the core contracts.
 
 ---
 
