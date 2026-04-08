@@ -229,7 +229,7 @@ The next steps are:
 - Alpha 4 is making inter-agent continuity explicit, reusable, and more operational.
 - Alpha 5 now provides an experimental baseline for decision-quality in higher-risk work.
 - Alpha 6 now provides a first concrete distribution baseline for presets, adapters, adoption modes, and delivery mappings.
-- Alpha 7 now begins with bootstrap principles for optional tooling and delivery automation boundaries.
+- Alpha 7 now begins with bootstrap principles and delivery-tooling boundaries for optional automation.
 
 ---
 
@@ -309,6 +309,7 @@ See also:
 - `docs/adoption-mode-guidance.md`
 - `docs/delivery-mapping-examples.md`
 - `docs/bootstrap-principles.md`
+- `docs/delivery-tooling-boundaries.md`
 - `docs/domain-governance-packs.md`
 - `docs/web-app-security-trust-boundaries.md`
 - `docs/ai-agent-security-prompt-injection.md`

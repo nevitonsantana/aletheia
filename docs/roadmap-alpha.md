@@ -302,9 +302,10 @@ It should remain:
 - optional
 - clearly outside the framework core itself
 
-Current first Alpha 7 artifact now includes:
+Current Alpha 7 artifacts now include:
 
 - `docs/bootstrap-principles.md`
+- `docs/delivery-tooling-boundaries.md`
 
 ---
 
