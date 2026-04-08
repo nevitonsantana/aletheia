@@ -1,0 +1,69 @@
+{
+  "id": "decision-iter-maint-round-2",
+  "task_brief_id": "task-iter-maint-round-2",
+  "input": {
+    "signal": "Reuse the shared helper in a second path without losing prior guarantees",
+    "raw": {
+      "requester": "maintainer",
+      "loop": "iterative-maintenance"
+    }
+  },
+  "context_snapshot": {
+    "summary": "Round 1 closed cleanly, but the helper is now more reused than before. Round 2 must treat regression risk more seriously.",
+    "sources_considered": [
+      "round-1 task brief",
+      "round-1 decision record",
+      "round-1 execution record",
+      "stable alias behavior expectations"
+    ],
+    "omitted_context": [
+      "longer-term helper redesign ideas",
+      "unrelated maintenance backlog"
+    ]
+  },
+  "interpretation": {
+    "summary": "This round may continue, but only with stronger attention to regression because the shared helper now influences more than one path.",
+    "key_signals": [
+      "the change reuses a path already touched in a previous round",
+      "stable behavior must be preserved across both call paths",
+      "the validation plan must catch semantic drift, not just syntax-level success"
+    ],
+    "assumptions": [
+      "A regression should move the round into explicit review rather than quiet closure.",
+      "A restartable handoff should be prepared if validation fails."
+    ]
+  },
+  "decision": {
+    "action": "continue",
+    "target": "secondary-path helper reuse with widened validation",
+    "next_step": "Execute the reuse and stop the round if cross-path validation reveals regression."
+  },
+  "justification": {
+    "reason": "The round is still bounded, but it sits on top of a now-sensitive helper path and therefore deserves a stronger regression read.",
+    "policy_refs": [
+      "recent regression risk increases proof expectations",
+      "shared helpers deserve stronger review when reuse expands"
+    ]
+  },
+  "provenance": {
+    "facts": [
+      "Round 1 modified the helper successfully.",
+      "Round 2 expands reuse to a second path.",
+      "Legacy alias behavior remains a critical stable expectation."
+    ],
+    "inferences": [
+      "A clean-looking change can still introduce semantic regression.",
+      "This round should be ready to stop at review if prior guarantees break."
+    ],
+    "rules_applied": [
+      "use regression history to widen validation",
+      "prefer explicit review over silent continuation when a stable behavior breaks"
+    ]
+  },
+  "metadata": {
+    "confidence": 0.8,
+    "risk": "medium",
+    "trace_id": "trace-iter-maint-round-2",
+    "created_at": "2026-04-08T17:05:00Z"
+  }
+}

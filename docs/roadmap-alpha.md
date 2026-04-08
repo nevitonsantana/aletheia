@@ -331,13 +331,17 @@ Current artifacts in this layer now include:
 - `examples/handoffs/compact-reviewable-handoff.md`
 - `examples/handoffs/high-stakes-handoff.md`
 - `starter-pack/experiments/workspace-context-routing/README.md`
+- `docs/iterative-maintenance-governance.md`
+- `starter-pack/guides/round-based-maintenance.md`
+- `examples/iterative-maintenance/three-round-loop/README.md`
 
-Together, these artifacts now define a first operational-composition baseline and strengthen four practical moves without inflating the core:
+Together, these artifacts now define a first operational-composition baseline and strengthen five practical moves without inflating the core:
 
 - make bounded work more legible through composed slices
 - connect risk posture to proof depth and gate choice
 - make handoffs more restartable without making them more bureaucratic
 - test filesystem-based context routing as an optional starter-pack experiment
+- make iterative maintenance rounds more legible through composed slices, regression-aware gates, and reusable learning
 
 ---
 

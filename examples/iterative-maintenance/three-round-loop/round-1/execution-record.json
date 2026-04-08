@@ -1,0 +1,39 @@
+{
+  "id": "execution-iter-maint-round-1",
+  "decision_id": "decision-iter-maint-round-1",
+  "adapter": {
+    "name": "repo-native-maintenance-round",
+    "mode": "local"
+  },
+  "target": {
+    "kind": "shared_helper_round",
+    "ref": "config-normalization-round-1"
+  },
+  "environment": {
+    "branch": "codex/iterative-maintenance-governance",
+    "sandbox": true
+  },
+  "status": "completed",
+  "result_summary": "The primary normalization path was improved and the round closed with targeted proof and no relevant regression detected.",
+  "validations": [
+    {
+      "name": "primary-path tests",
+      "status": "pass",
+      "evidence_ref": "tests/primary-normalization"
+    },
+    {
+      "name": "legacy alias regression check",
+      "status": "pass",
+      "evidence_ref": "tests/legacy-aliases"
+    },
+    {
+      "name": "diff inspection",
+      "status": "pass",
+      "evidence_ref": "review-notes/round-1-diff"
+    }
+  ],
+  "timestamps": {
+    "started_at": "2026-04-08T16:20:00Z",
+    "finished_at": "2026-04-08T16:45:00Z"
+  }
+}

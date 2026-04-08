@@ -154,6 +154,24 @@ Even if the base task looks moderate, increase the gate when one or more of thes
 
 ---
 
+## Regression-sensitive escalation
+
+A regression is not only a validation datapoint.
+It can change the current slice state and the next gate.
+
+If a previously stable behavior breaks during a round, a practical read is:
+
+- `validation-pending -> review`
+- `review -> blocked` when the regression is confirmed and unresolved
+- `blocked -> escalated` when the regression becomes high-impact, crosses a trust boundary, or demands a stronger review lane
+
+Regression history should also affect later rounds.
+If the same area already regressed recently, start the next round with stronger expected proof than a clean area would need.
+
+When the regression is semantic and difficult to validate directly, selective structured inference may become proportional even if it would not have been warranted in a cleaner round.
+
+---
+
 ## Common block triggers
 
 Block or slow closure when:
@@ -193,3 +211,5 @@ See these governance examples for a compact posture mapping:
 - `docs/work-slice-pattern.md`
 - `docs/structured-risk-inference.md`
 - `docs/agent-handoffs.md`
+- `starter-pack/guides/round-based-maintenance.md`
+- `examples/iterative-maintenance/three-round-loop/README.md`

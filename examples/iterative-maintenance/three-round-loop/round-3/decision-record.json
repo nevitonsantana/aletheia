@@ -1,0 +1,70 @@
+{
+  "id": "decision-iter-maint-round-3",
+  "task_brief_id": "task-iter-maint-round-3",
+  "input": {
+    "signal": "Repair the regression first and only then restore normal maintenance confidence",
+    "raw": {
+      "requester": "maintainer",
+      "loop": "iterative-maintenance"
+    }
+  },
+  "context_snapshot": {
+    "summary": "Round 2 proved that the helper can drift semantically across paths. Round 3 must start from regression repair and stronger proof, not from more expansion.",
+    "sources_considered": [
+      "round-2 task brief",
+      "round-2 decision record",
+      "round-2 execution record",
+      "round-2 handoff record"
+    ],
+    "omitted_context": [
+      "future broad cleanup plans",
+      "unrelated backlog items"
+    ]
+  },
+  "interpretation": {
+    "summary": "The next safe move is to restore prior guarantees, widen validation, and preserve a learning that future rounds can reuse.",
+    "key_signals": [
+      "a previously stable behavior already regressed once",
+      "the helper is now a regression-sensitive area",
+      "future rounds should inherit stronger default scrutiny here"
+    ],
+    "assumptions": [
+      "The regression is concrete enough that targeted repair is preferable to abstract redesign.",
+      "A learning record is warranted if the validation gap is clearly reusable."
+    ]
+  },
+  "decision": {
+    "action": "continue",
+    "target": "regression repair plus widened validation",
+    "next_step": "Repair the alias behavior, run stronger validation, and store the resulting lesson if the round stabilizes."
+  },
+  "justification": {
+    "reason": "The area now has known regression history, so the round should prioritize repair, stronger proof, and future prevention over further expansion.",
+    "policy_refs": [
+      "recent regression history increases the gate",
+      "repair before expansion",
+      "learning should capture repeatable validation gaps"
+    ]
+  },
+  "provenance": {
+    "facts": [
+      "Round 2 introduced a legacy alias regression.",
+      "The helper now affects more than one path.",
+      "The next round must prove restored stability, not just local correctness."
+    ],
+    "inferences": [
+      "A stronger validation set is now proportional.",
+      "The loop should leave behind a reusable maintenance lesson."
+    ],
+    "rules_applied": [
+      "raise the gate after unresolved regression",
+      "capture learning when a missing validation rule becomes obvious"
+    ]
+  },
+  "metadata": {
+    "confidence": 0.86,
+    "risk": "medium",
+    "trace_id": "trace-iter-maint-round-3",
+    "created_at": "2026-04-08T18:10:00Z"
+  }
+}

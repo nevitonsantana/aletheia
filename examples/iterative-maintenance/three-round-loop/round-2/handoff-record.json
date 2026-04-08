@@ -1,0 +1,37 @@
+{
+  "id": "handoff-iter-maint-round-2",
+  "task_brief_id": "task-iter-maint-round-2",
+  "origin": {
+    "actor": "maintenance-agent",
+    "thread": "iterative-maintenance-round-2",
+    "date": "2026-04-08T17:48:00Z"
+  },
+  "status": "blocked_on_regression",
+  "completed": [
+    "Secondary-path reuse of the shared helper was implemented.",
+    "Cross-path validation was run instead of closing on local success alone.",
+    "A legacy alias regression was made explicit before the round closed."
+  ],
+  "pending": [
+    "Repair the legacy alias regression before this maintenance chain resumes normal closure.",
+    "Re-read whether the next round needs stronger validation because the helper now has recent regression history."
+  ],
+  "risks": [
+    "If the regression is treated as minor noise, later rounds may accumulate hidden debt.",
+    "The helper now has a proven history of semantic drift across paths."
+  ],
+  "reopen_context": {
+    "summary": "Round 2 cannot be read as clean progress. The helper reuse works locally, but a previously stable behavior broke and the next round must start from that fact rather than from the implementation diff alone.",
+    "required_files": [
+      "round-2/task-brief.json",
+      "round-2/decision-record.json",
+      "round-2/execution-record.json"
+    ],
+    "next_action": "Start the next round from regression repair and widened validation, not from feature expansion."
+  },
+  "validation_next": [
+    "Repair validation for legacy aliases",
+    "Cross-path semantic review after the repair",
+    "Decision on whether a reusable learning should be stored once the round stabilizes"
+  ]
+}

@@ -29,6 +29,8 @@ Se os schemas explicam **a estrutura** e os docs explicam **a lógica**, os exem
   - mostra exemplos concretos de inference artifacts para risco de refactor e handoff de alto impacto
 - `model-strategy/`
   - mostra routing provider-agnostic e um profile local ilustrativo para fleets mistos de modelos
+- `iterative-maintenance/`
+  - mostra um loop de manutenção em três rodadas com regressão escalando o gate e gerando learning reutilizável
 
 ---
 
@@ -58,3 +60,4 @@ O alpha agora já cobre:
 - optional filesystem-context-routing experimentation
 - examples of structured risk inference for bounded semantic-risk scenarios
 - advisory-only model-strategy examples for task-to-model-fit guidance
+- iterative maintenance examples where regression changes the round gate instead of remaining only a final observation

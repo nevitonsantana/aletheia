@@ -62,6 +62,7 @@ Use a work slice when at least one of these is true:
 - the work will cross an agent, review, or validation boundary
 - the work needs a clearer risk read before execution
 - the work may produce a reusable learning
+- the work is part of an iterative maintenance loop where one round should remain legible from the next
 
 You do **not** need a fully explicit work slice for every tiny action.
 
@@ -117,6 +118,7 @@ They are a practical reading layer.
 | `decision-recorded` | a decision record makes the next step explicit |
 | `execution-in-progress` | an execution record is planned or running |
 | `validation-pending` | execution advanced, but proof or review is still incomplete |
+| `review` | the slice now needs explicit inspection before it may close cleanly |
 | `validated` | the required proof exists and closure is justified |
 | `blocked` | the slice cannot advance safely under current conditions |
 | `escalated` | the next step requires a higher-trust review or human gate |
@@ -124,6 +126,19 @@ They are a practical reading layer.
 
 This vocabulary should stay optional and operational.
 It should not become a new mandatory core state machine at this stage.
+
+### Regression-sensitive progression
+
+In iterative maintenance work, a detected regression may change the slice progression rather than leaving the round on the same path.
+
+A healthy operational read might become:
+
+- `validation-pending -> review` when a previously stable behavior breaks
+- `review -> blocked` when the regression is real and unresolved
+- `blocked -> escalated` when the unresolved regression now requires a higher-trust review or wider validation boundary
+
+This does not create a new engine state machine.
+It makes a governance-relevant event easier to read inside the slice.
 
 ---
 
@@ -198,3 +213,4 @@ This is a convenience pattern, not a required filesystem contract.
 - `examples/work-slices/standard-slice/README.md`
 - `examples/handoffs/compact-reviewable-handoff.md`
 - `examples/handoffs/high-stakes-handoff.md`
+- `examples/iterative-maintenance/three-round-loop/README.md`

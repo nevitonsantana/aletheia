@@ -1,0 +1,39 @@
+{
+  "id": "execution-iter-maint-round-2",
+  "decision_id": "decision-iter-maint-round-2",
+  "adapter": {
+    "name": "repo-native-maintenance-round",
+    "mode": "local"
+  },
+  "target": {
+    "kind": "shared_helper_round",
+    "ref": "config-normalization-round-2"
+  },
+  "environment": {
+    "branch": "codex/iterative-maintenance-governance",
+    "sandbox": true
+  },
+  "status": "completed",
+  "result_summary": "The helper was reused in the second path, but validation exposed a regression in previously stable legacy alias handling.",
+  "validations": [
+    {
+      "name": "secondary-path tests",
+      "status": "pass",
+      "evidence_ref": "tests/secondary-path"
+    },
+    {
+      "name": "legacy alias regression check",
+      "status": "fail",
+      "evidence_ref": "tests/legacy-aliases"
+    },
+    {
+      "name": "semantic review across both paths",
+      "status": "warn",
+      "evidence_ref": "review-notes/round-2-semantics"
+    }
+  ],
+  "timestamps": {
+    "started_at": "2026-04-08T17:10:00Z",
+    "finished_at": "2026-04-08T17:42:00Z"
+  }
+}

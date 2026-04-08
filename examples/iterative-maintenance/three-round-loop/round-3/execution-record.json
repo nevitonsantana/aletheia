@@ -1,0 +1,44 @@
+{
+  "id": "execution-iter-maint-round-3",
+  "decision_id": "decision-iter-maint-round-3",
+  "adapter": {
+    "name": "repo-native-maintenance-round",
+    "mode": "local"
+  },
+  "target": {
+    "kind": "shared_helper_round",
+    "ref": "config-normalization-round-3"
+  },
+  "environment": {
+    "branch": "codex/iterative-maintenance-governance",
+    "sandbox": true
+  },
+  "status": "completed",
+  "result_summary": "The legacy alias regression was repaired and the shared helper now closes under wider validation because the area has recent regression history.",
+  "validations": [
+    {
+      "name": "legacy alias regression test",
+      "status": "pass",
+      "evidence_ref": "tests/legacy-aliases"
+    },
+    {
+      "name": "cross-path semantic review",
+      "status": "pass",
+      "evidence_ref": "review-notes/round-3-semantics"
+    },
+    {
+      "name": "wider helper validation set",
+      "status": "pass",
+      "evidence_ref": "tests/helper-wide-validation"
+    },
+    {
+      "name": "diff inspection",
+      "status": "pass",
+      "evidence_ref": "review-notes/round-3-diff"
+    }
+  ],
+  "timestamps": {
+    "started_at": "2026-04-08T18:18:00Z",
+    "finished_at": "2026-04-08T18:52:00Z"
+  }
+}

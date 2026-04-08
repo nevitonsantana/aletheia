@@ -1,0 +1,38 @@
+{
+  "id": "task-iter-maint-round-1",
+  "title": "Normalize configuration keys in the primary helper path",
+  "problem": "The current helper normalizes casing inconsistently in one primary path, which makes downstream behavior harder to reason about.",
+  "objective": "Improve normalization in the primary path without changing legacy alias behavior in other already-stable call sites.",
+  "classification": {
+    "task_type": "B",
+    "severity": "S2",
+    "risk": "medium"
+  },
+  "scope": {
+    "in": [
+      "shared helper behavior in the primary path",
+      "targeted validation notes"
+    ],
+    "out": [
+      "secondary integration paths",
+      "global interface redesign",
+      "schema or engine changes"
+    ]
+  },
+  "constraints": [
+    "Keep the round bounded to one path.",
+    "Do not widen the helper contract beyond what this round can validate.",
+    "Preserve already-stable legacy alias behavior."
+  ],
+  "success_criteria": [
+    "Primary-path normalization becomes consistent.",
+    "No known stable behavior regresses.",
+    "The round can close with targeted validation."
+  ],
+  "validation_plan": [
+    "Targeted tests for the primary path",
+    "Regression check for existing alias behavior",
+    "Diff inspection"
+  ],
+  "human_gate_required": false
+}

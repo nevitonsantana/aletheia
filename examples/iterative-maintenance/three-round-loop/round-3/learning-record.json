@@ -1,0 +1,27 @@
+{
+  "id": "learning-iter-maint-round-3",
+  "source": {
+    "type": "review",
+    "ref": "handoff-iter-maint-round-3"
+  },
+  "learning_type": "pattern",
+  "title": "Recent regression history should widen validation for the next maintenance round",
+  "summary": "When a shared helper regresses a previously stable behavior during iterative maintenance, the next round should not restart from a clean-risk assumption. It should widen validation and treat the area as regression-sensitive until stability is re-established.",
+  "evidence": [
+    "task-iter-maint-round-2",
+    "execution-iter-maint-round-2",
+    "task-iter-maint-round-3",
+    "execution-iter-maint-round-3"
+  ],
+  "actionability": {
+    "apply_to": [
+      "starter-pack guide",
+      "review checklist"
+    ],
+    "recommended_change": "When recent regression history exists in a shared area, raise the default validation posture for the next round instead of treating the next change as if the area were clean."
+  },
+  "review": {
+    "status": "accepted",
+    "approved_by": "framework-designer"
+  }
+}

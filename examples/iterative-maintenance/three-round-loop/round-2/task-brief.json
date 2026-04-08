@@ -1,0 +1,39 @@
+{
+  "id": "task-iter-maint-round-2",
+  "title": "Extend shared normalization helper to the secondary integration path",
+  "problem": "The second integration path still uses older normalization logic, which creates drift against the new primary-path behavior.",
+  "objective": "Reuse the helper across the secondary path without regressing the stable legacy alias behavior already preserved in Round 1.",
+  "classification": {
+    "task_type": "B",
+    "severity": "S2",
+    "risk": "medium"
+  },
+  "scope": {
+    "in": [
+      "secondary integration path",
+      "shared helper reuse",
+      "validation updates for cross-path behavior"
+    ],
+    "out": [
+      "public interface redesign",
+      "policy changes",
+      "new round-specific schema"
+    ]
+  },
+  "constraints": [
+    "Treat the helper as a regression-sensitive area now that one round has already modified it.",
+    "Do not close the round on confidence alone if previously stable behavior breaks.",
+    "Prepare restartable context if review becomes necessary."
+  ],
+  "success_criteria": [
+    "The secondary path uses the shared helper consistently.",
+    "Legacy alias behavior remains intact.",
+    "The round either closes with proof or stops explicitly at a regression boundary."
+  ],
+  "validation_plan": [
+    "Cross-path tests",
+    "Regression check for legacy alias behavior",
+    "Review of helper semantics across both paths"
+  ],
+  "human_gate_required": false
+}

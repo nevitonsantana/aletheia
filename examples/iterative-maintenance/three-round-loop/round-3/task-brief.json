@@ -1,0 +1,40 @@
+{
+  "id": "task-iter-maint-round-3",
+  "title": "Repair the legacy alias regression and stabilize future helper maintenance",
+  "problem": "Round 2 expanded helper reuse but regressed a previously stable alias behavior, so the maintenance chain cannot continue as if the area were clean.",
+  "objective": "Restore the stable alias behavior, widen validation for the shared helper, and capture a reusable lesson for future rounds.",
+  "classification": {
+    "task_type": "B",
+    "severity": "S2",
+    "risk": "medium"
+  },
+  "scope": {
+    "in": [
+      "repair of the alias regression",
+      "stronger helper validation",
+      "learning capture for future rounds"
+    ],
+    "out": [
+      "broader helper redesign",
+      "benchmark scoring",
+      "new policy or schema families"
+    ]
+  },
+  "constraints": [
+    "Treat the helper as regression-sensitive until stability is re-established.",
+    "Do not resume feature expansion before the regression is repaired.",
+    "Capture a reusable learning if the repair exposes a repeatable pattern."
+  ],
+  "success_criteria": [
+    "The legacy alias behavior is restored.",
+    "Validation is wider than in Round 1 because the area now has regression history.",
+    "The loop leaves behind a reusable lesson rather than only a repaired diff."
+  ],
+  "validation_plan": [
+    "Legacy alias regression test",
+    "Cross-path semantic review",
+    "Wider helper validation set",
+    "Diff inspection"
+  ],
+  "human_gate_required": false
+}

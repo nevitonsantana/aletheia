@@ -100,6 +100,9 @@ The current low-regret operational-composition baseline is now anchored by:
 - `examples/handoffs/compact-reviewable-handoff.md`
 - `examples/handoffs/high-stakes-handoff.md`
 - `starter-pack/experiments/workspace-context-routing/README.md`
+- `docs/iterative-maintenance-governance.md`
+- `starter-pack/guides/round-based-maintenance.md`
+- `examples/iterative-maintenance/three-round-loop/README.md`
 
 This means the current operational-composition baseline can now be read across:
 
@@ -107,6 +110,8 @@ This means the current operational-composition baseline can now be read across:
 - risk-sensitive gate selection
 - stronger restart-package continuity
 - optional filesystem-based context routing experiments
+- round-based maintenance guidance over existing work-slice contracts
+- regression-aware continuation and reusable learning across rounds
 
 This layer sits around the Alpha 4 and Alpha 5 baselines without becoming a new core contract family of its own.
 These materials remain intentionally smaller than the core contracts.

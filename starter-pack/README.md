@@ -78,8 +78,12 @@ If you want to make bounded work more tangible without changing the core contrac
 - `examples/work-slices/standard-slice/README.md`
 - `examples/handoffs/compact-reviewable-handoff.md`
 - `examples/handoffs/high-stakes-handoff.md`
+- `docs/iterative-maintenance-governance.md`
+- `starter-pack/guides/round-based-maintenance.md`
+- `examples/iterative-maintenance/three-round-loop/README.md`
 
 This baseline is intentionally smaller than the core contracts and mainly reinforces Alpha 4 continuity plus Alpha 5 validation posture.
+It now also makes iterative maintenance rounds and regression-aware continuation more tangible without changing the core contracts.
 
 ## Experimental workspace context routing
 
