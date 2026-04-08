@@ -53,4 +53,5 @@ O alpha agora já cobre:
 - work-slice composition across existing contracts
 - compact operational handoff examples
 - risk-to-gate posture examples
+- optional filesystem-context-routing experimentation
 - examples of structured risk inference for bounded semantic-risk scenarios

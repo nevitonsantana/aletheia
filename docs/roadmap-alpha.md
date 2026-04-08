@@ -310,13 +310,13 @@ Current Alpha 7 artifacts now include:
 
 ---
 
-## Current Incremental Operational Evolution
+## Current Operational Composition Baseline
 
 Focus:
 - make the current baselines more tangible through composed work slices, clearer risk-to-gate mapping, stronger handoff examples, and optional filesystem-based context routing experiments
 
 This is not a new Alpha.
-It is a low-regret operational layer that composes the current baseline artifacts without changing the framework core.
+It is a low-regret operational-composition baseline that composes the current artifacts around Alpha 4 and Alpha 5 without changing the framework core.
 
 Current artifacts in this layer now include:
 
@@ -328,7 +328,7 @@ Current artifacts in this layer now include:
 - `examples/handoffs/high-stakes-handoff.md`
 - `starter-pack/experiments/workspace-context-routing/README.md`
 
-Together, these artifacts now strengthen four practical moves without inflating the core:
+Together, these artifacts now define a first operational-composition baseline and strengthen four practical moves without inflating the core:
 
 - make bounded work more legible through composed slices
 - connect risk posture to proof depth and gate choice
@@ -398,7 +398,7 @@ Across all phases, AletheIA should preserve a few boundaries:
 
 ## Near-term priority order
 
-1. make the current operational layer more tangible
+1. keep the current operational-composition baseline coherent
    - work-slice pattern
    - risk-to-gate mapping
    - stronger handoff examples
