@@ -83,12 +83,13 @@ If you want to make bounded work more tangible without changing the core contrac
 - `examples/iterative-maintenance/three-round-loop/README.md`
 
 This baseline is intentionally smaller than the core contracts and mainly reinforces Alpha 4 continuity plus Alpha 5 validation posture.
-It now also makes iterative maintenance rounds and regression-aware continuation more tangible without changing the core contracts.
+It now also makes iterative maintenance rounds and regression-aware continuation more tangible without changing the core contracts, especially for important loops where a proportional sequence of proof, contract, health, alert, investigation, and summary is justified.
 
 Taken together, the current starter-pack now covers both:
 
 - advisory model strategy for choosing fit-for-task model profiles
 - operational maintenance guidance for carrying bounded work safely across repeated rounds
+- a clearer bridge between real pilot evidence and lightweight reusable framework guidance
 
 ## Experimental workspace context routing
 

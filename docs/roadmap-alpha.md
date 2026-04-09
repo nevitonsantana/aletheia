@@ -438,6 +438,8 @@ Across all phases, AletheIA should preserve a few boundaries:
    - contributor guidance
    - project extension template
 5. keep the Alpha 2 bridge coherent while adoption grows
+   - preserve the Crisis Monitor pilot as the strongest current real-world validation lane
+   - keep the conversion path from pilot evidence to small framework improvements explicit
 6. continue validating the Crisis Monitor pilot and nearby real slices
 7. convert pilot learnings into framework updates
 8. keep Alpha 5 framed as experimental structured risk inference rather than strong formal verification
