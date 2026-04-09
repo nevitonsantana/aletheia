@@ -2,7 +2,7 @@
 
 ## Goal
 
-This document explains how AletheIA was first tested in a real product flow inside the Crisis Monitor project.
+This document explains how AletheIA was tested in a real product flow inside the Crisis Monitor project and how that pilot matured over time.
 
 It exists to answer four questions:
 
@@ -24,6 +24,7 @@ It is the first real proving ground where the framework could be tested against:
 - real approval logic
 - real audit surfaces
 - real operational tradeoffs
+- real signals of degradation after the first proof already worked
 
 This matters because AletheIA should not mature only through internal framework theory.
 
@@ -50,6 +51,7 @@ In practice, users could still face ambiguity around:
 - why a proposal required approval
 - what exactly still depended on human decision
 - whether chat and audit were telling the same story
+- whether the quality of the assisted flow was getting better or quietly degrading over time
 
 That made the product a strong first pilot for AletheIA, because the framework is specifically concerned with the space between:
 
@@ -64,20 +66,23 @@ If the product makes the decision path more explicit, then:
 - the flow becomes easier to trust
 - approval becomes easier to interpret
 - audit becomes more useful
+- degradations become easier to detect before they turn into silent fragility
 - AletheIA gets a real product proof without needing a large new capability
 
 ---
 
-## Scope of the first pilot slice
+## Scope of the pilot
 
-The first pilot slice stayed intentionally small.
+The pilot stayed intentionally bounded.
 
 It focused on:
 
 - proposal explicability
 - routing clarity
 - approval rationale
-- lightweight proof that chat and audit stay coherent
+- real-flow validation
+- explainability consistency
+- small operational observability around the pilot lane
 
 It did **not** try to:
 
@@ -85,6 +90,7 @@ It did **not** try to:
 - replace approval policy
 - create a full new runtime
 - generalize the whole framework through one product feature
+- turn product observability into a mandatory framework requirement
 
 ---
 
@@ -92,7 +98,7 @@ It did **not** try to:
 
 ### Slice 1 — Decision trace clarity
 
-In the Crisis Monitor product, the first slice made the proposal card more explicit about:
+The first slice made the proposal flow more explicit about:
 
 - chosen skill
 - routing origin
@@ -100,7 +106,7 @@ In the Crisis Monitor product, the first slice made the proposal card more expli
 - next decision needed
 - why the proposal requires approval
 
-This proved that a small change in explicability could already produce meaningful value.
+This proved that a small explicability improvement could already produce meaningful value.
 
 ### Slice 2 — Functional authenticated smoke
 
@@ -114,13 +120,61 @@ It validated a real local flow:
 4. controlled reject
 5. final audit read
 
-This mattered because it moved the pilot from:
+This moved the pilot from:
 
 - static or render-level proof
 
-to:
+into:
 
 - real product behavior under controlled conditions
+
+### Slice 3 — Explainability contract hardening
+
+The next move was not a bigger feature.
+It was stronger consistency.
+
+The product hardened the explainability contract so the lane could more reliably preserve alignment between:
+
+- the suggested action
+- the explicit explanation for that action
+- the audit trail supporting it
+
+That mattered because the pilot was no longer proving only that a decision could be shown.
+It was proving that the decision story could stay coherent across artifacts.
+
+### Slice 4 — Health metric and alert
+
+Once the lane had a stronger contract, the pilot gained a small health reading around explainability coverage.
+
+That made it possible to ask:
+
+- is the lane still producing enough explainability?
+- is the flow staying legible?
+- is degradation happening even when the main path still technically works?
+
+### Slice 5 — Investigable decision feed
+
+The next slice made degradation more inspectable.
+
+Instead of stopping at a summary metric, the pilot exposed a small decision feed that made specific explainability gaps reviewable.
+
+This mattered because operational quality is easier to improve when the problem is not only visible as a number, but also as a short inspectable event.
+
+### Slice 6 — Lane scorecard
+
+The lane then gained a compact scorecard that summarized:
+
+- current status
+- dominant tension
+- relevant alerts
+- recent investigable items
+
+This did not turn the framework into an observability system.
+It simply showed that a real pilot can evolve from:
+
+`decision clarity -> proof -> contract -> health -> investigation -> summary`
+
+without becoming a giant platform effort.
 
 ---
 
@@ -128,12 +182,15 @@ to:
 
 The pilot proved that AletheIA can add value in a real product without starting from a giant feature.
 
-More specifically, it showed that:
+More specifically, it now shows that:
 
 - explicability can be a valid first proof of the framework
 - approval rationale adds real clarity
 - audit and chat can be checked as parallel surfaces of the same governed flow
-- a lightweight product pilot can generate reusable framework learnings
+- a real flow can be smoke-tested under authentication
+- a decision lane can be hardened through contract consistency before widening surface area
+- small health metrics and alerts can expose silent degradation in a high-value lane
+- a pilot can generate reusable framework learnings about continuity, detection, and conversion
 
 ---
 
@@ -147,6 +204,7 @@ These belong to Crisis Monitor:
 - skill names and routing heuristics
 - approval semantics for monitoring/editorial actions
 - the specific audit UI and product language
+- the exact observability names used for the pilot lane
 
 ### Reusable for AletheIA
 
@@ -155,7 +213,9 @@ These became reusable framework lessons:
 - start pilots with low-risk explicability improvements
 - validate decision and audit together
 - prefer controlled reversible actions for early proof
-- turn pilot findings into framework artifacts, not only product notes
+- strengthen the contract before widening the feature
+- treat degradation detection as part of the operating picture, not only as a final complaint
+- convert real pilot evidence into small reusable framework artifacts instead of inflating the core
 
 ---
 
@@ -168,10 +228,12 @@ This pilot directly influenced the public AletheIA repo by reinforcing:
 - durable decision reasoning
 - the need to distinguish behavioral enforcement from technical enforcement
 - the self-application loop as a real next step
+- iterative maintenance as a governance problem, not only a patch problem
+- pilot conversion as a repeatable path from product evidence to framework maturity
 
 In other words:
 
-the pilot did not stay trapped in product history.
+this pilot did not stay trapped in product history.
 It became input for framework evolution.
 
 ---
@@ -183,21 +245,23 @@ At this stage, the Crisis Monitor pilot should be read as:
 - a **real test field**
 - a **source of disciplined learnings**
 - a **bridge between Alpha 1 and Alpha 2**
+- an example of how product evidence can harden operational guidance without creating new core contracts
 
-It is not yet the final word on AletheIA adoption.
+It is still not the final word on AletheIA adoption.
 
-But it is already enough to prove that the framework can be tested in product reality and then converted into framework maturity.
+But it now proves more than an initial product slice.
+It shows that the framework can be tested in product reality, observed over repeated hardening steps, and then converted into reusable framework maturity.
 
 ---
 
-## What Alpha 2 should do next with this pilot
+## What Alpha 2 should do with this pilot
 
-The next useful moves are:
+The useful moves now are:
 
-1. deepen the pilot write-up when new slices land
-2. keep converting product learnings into explicit framework artifacts
-3. avoid mixing product-specific residue with reusable framework core
-4. use this pilot as one of the main anchors for the Alpha 2 story
+1. keep converting new product learnings into explicit framework artifacts
+2. use the pilot as evidence that self-application is not only rhetorical
+3. keep the reusable lesson separate from the product residue
+4. preserve the pilot as one of the main anchors for the Alpha 2 story
 
 ---
 
@@ -208,6 +272,6 @@ The Crisis Monitor pilot and the self-application loop are complementary:
 - the pilot provides real field evidence
 - self-application provides the conversion logic back into the framework
 
-Together, they form the real center of Alpha 2:
+Together, they form the practical center of Alpha 2:
 
 `pilot -> learning -> framework improvement`

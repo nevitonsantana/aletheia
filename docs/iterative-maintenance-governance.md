@@ -21,6 +21,7 @@ That shift matters because real maintenance work is shaped by:
 
 - repeated rounds rather than isolated patches
 - regressions that appear after seemingly successful work
+- regressions that may stay partially silent until someone looks at the lane health
 - early decisions that either support or weaken later iterations
 - the need to resume context without replaying the full history
 
@@ -93,8 +94,24 @@ Examples:
 - a regression can force stronger review or wider validation before the next continuation
 - repeated regressions in the same area should raise the expected gate for later rounds
 - a non-obvious regression can justify a handoff, a learning record, or selective structured inference
+- a silent degradation can justify a small lane health reading before the next round is treated as trustworthy
 
 That is a governance move, not a benchmark move.
+
+---
+
+## A practical operational reading
+
+In higher-value iterative loops, the most useful operational sequence is often:
+
+1. **proof** — establish that the lane or round actually works in a real slice
+2. **contract** — harden consistency around what the lane is supposed to mean
+3. **health metric** — make the lane readable as a health signal, not only as a successful patch
+4. **alert** — surface degradation before it becomes purely anecdotal
+5. **investigation** — make the degraded case inspectable without replaying everything
+6. **lane summary** — keep a compact readout of the current operational picture
+
+This sequence should be read as a **proportional pattern**, not as a universal framework obligation.
 
 ---
 
@@ -107,6 +124,7 @@ This reference becomes harmful if it pushes AletheIA into:
 - multi-round runtime orchestration inside the core
 - score-first thinking instead of decision quality and reviewability
 - heavy process for every local or reversible change
+- treating observability as mandatory framework infrastructure for every project
 
 AletheIA should stay small enough to teach, inspect, and adapt.
 If a maintenance-oriented idea only works by inflating the framework, it should remain optional or experimental.
@@ -121,9 +139,27 @@ The lowest-regret way to apply this reference is:
 2. strengthen the practical link between regression and gate escalation
 3. make continuity between rounds more restartable
 4. preserve reusable learnings when regressions or validation failures repeat
-5. test the idea through docs, starter-pack guidance, and examples before changing any core contract
+5. use small operational readings when a loop is important enough to justify them
+6. test the idea through docs, starter-pack guidance, and examples before changing any core contract
 
 That sequence preserves clarity and keeps the experiment reversible.
+
+---
+
+## What recent real-world evidence changed
+
+The Crisis Monitor pilot did not turn AletheIA into an observability framework.
+
+What it did was make one important point more concrete:
+
+**iterative maintenance is easier to govern when silent degradation becomes legible before the next continuation is treated as safe.**
+
+That real-world evidence makes iterative maintenance in AletheIA less abstract.
+It shows that rounds, gates, continuity, and reusable learning are stronger when a meaningful loop can also answer:
+
+- is the lane still coherent?
+- is the explainability still there?
+- are we continuing on top of a fragile step without noticing?
 
 ---
 
@@ -134,3 +170,4 @@ That sequence preserves clarity and keeps the experiment reversible.
 - `starter-pack/guides/risk-to-gate-mapping.md`
 - `docs/structured-risk-inference.md`
 - `examples/iterative-maintenance/three-round-loop/README.md`
+- `examples/pilot-conversion/crisis-monitor-real-world-validation.md`

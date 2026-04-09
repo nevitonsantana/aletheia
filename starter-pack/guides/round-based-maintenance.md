@@ -105,6 +105,10 @@ In practice, regression can change the round in several ways:
 Regression should also influence later rounds.
 A recent regression in the same area is a signal that the next round deserves a stronger gate.
 
+Silent degradation matters too.
+A round can still look superficially successful while a useful operational signal is getting weaker.
+When that happens, the next continuation should not be read as fully clean progress.
+
 ---
 
 ## When to widen the gate
@@ -116,9 +120,27 @@ Increase the validation or review burden when:
 - the regression is semantic and not easy to catch by simple tests
 - the next round crosses an agent or ownership boundary
 - the cost of another failure is now higher than in the first round
+- a lane health reading suggests that quality is eroding even when the main path still works
 
 Do not widen the gate just because work is iterative.
 Widen it because the round history justifies it.
+
+---
+
+## A proportional operational sequence
+
+For more important iterative loops, a useful sequence is:
+
+1. prove the round or lane with a real bounded slice
+2. harden the contract that keeps the lane coherent
+3. expose a small health metric when quiet degradation matters
+4. add an alert if degradation should change behavior
+5. make the degraded case investigable
+6. keep a compact summary for the next continuation or reviewer
+
+This should stay proportional.
+It is not required for every maintenance task.
+It is useful when the loop is important enough that continuation quality matters.
 
 ---
 
@@ -144,6 +166,7 @@ Generate a learning record when the round exposed something reusable, for exampl
 - a fragile module that deserves stronger default scrutiny next time
 - a context gap that made the wrong change easier to introduce
 - a planner/executor/reviewer coordination mistake that is likely to repeat
+- a signal that should exist before the next continuation is treated as safe
 
 Learning is most useful when it helps the next round avoid the same failure mode.
 
@@ -155,8 +178,9 @@ Learning is most useful when it helps the next round avoid the same failure mode
 2. Record the round decision before execution.
 3. Execute with the minimum declared validation.
 4. If regression appears, change the round state and re-read the gate.
-5. Create a handoff if the next boundary matters.
-6. Store a learning record if the round taught something reusable.
+5. Add a compact health reading only when the loop is important enough to justify it.
+6. Create a handoff if the next boundary matters.
+7. Store a learning record if the round taught something reusable.
 
 ---
 
@@ -165,9 +189,9 @@ Learning is most useful when it helps the next round avoid the same failure mode
 See:
 
 - `examples/iterative-maintenance/three-round-loop/README.md`
+- `examples/pilot-conversion/crisis-monitor-real-world-validation.md`
 
-That example shows a three-round loop where:
+Together, these examples show both:
 
-- Round 1 closes cleanly
-- Round 2 introduces a regression and escalates the gate
-- Round 3 resolves the regression, widens validation, and stores a reusable learning
+- a generic three-round loop
+- a real pilot conversion where proof, contract, health, alert, investigation, and summary hardened the reusable guidance without changing the core contracts

@@ -43,6 +43,7 @@ Sometimes it should become:
 - a governance clarification
 - a policy pack refinement
 - a test or executable baseline improvement
+- a new example that makes the conversion path inspectable
 
 The job of conversion is to choose the smallest reusable form that preserves the learning.
 
@@ -59,6 +60,7 @@ Examples:
 - users did not understand why approval was needed
 - audit and chat were telling different stories
 - a pilot slice proved a smaller-first strategy works better
+- a lane started to degrade quietly even though the main flow still worked
 
 ### 2. Write the learning explicitly
 
@@ -104,6 +106,7 @@ Examples:
 - token discipline
 - enforcement boundaries
 - durable decision discipline
+- iterative maintenance framing
 
 ### 2. Starter-pack artifact
 
@@ -114,6 +117,7 @@ Examples:
 - a guide
 - a checklist
 - a template
+- a repeatable sequence for proof, review, and escalation
 
 ### 3. Governance refinement
 
@@ -156,6 +160,10 @@ If the learning is useful, decide what kind of artifact it should become.
 
 A lightweight doc or template may be the right first conversion.
 
+### Do not mistake observability in one pilot for a universal framework requirement
+
+A useful lane metric or scorecard in one product can justify a framework learning without turning observability into mandatory framework infrastructure.
+
 ---
 
 ## Good Alpha 2 signs
@@ -165,25 +173,36 @@ Alpha 2 is going well when:
 - a real pilot learning can be traced to a merged framework change
 - the framework change is smaller than the pilot itself
 - the reusable part is separated from the product residue
-- the repo shows a growing chain of pilot -> learning -> improvement
+- the repo shows a growing chain of `pilot -> learning -> improvement`
+- the latest field evidence makes older framework guidance more concrete rather than more abstract
 
 ---
 
 ## Crisis Monitor example
 
-The Crisis Monitor pilot already produced reusable lessons such as:
+The Crisis Monitor pilot now provides a stronger conversion example than an early explicability slice alone.
 
-- start with low-risk explicability improvements
-- validate decision and audit together
-- prefer controlled reversible actions in early proof
+The recent chain was:
 
-Those lessons already influenced framework artifacts like:
+1. real authenticated smoke proved the lane under real conditions
+2. explainability contract hardening made the lane more coherent
+3. a health metric and alert exposed explainability degradation risk
+4. an investigable decision feed made the gap reviewable by occurrence
+5. a lane scorecard summarized the operational picture
+6. the framework absorbed the reusable part as stronger Alpha 2 and iterative-maintenance guidance
 
-- governance clarity
-- durable decision discipline
-- enforcement-boundary clarification
+What remained product-specific:
 
-This is exactly the kind of loop Alpha 2 is trying to make explicit.
+- Cris naming
+- exact event names
+- the local observability route shape
+
+What became reusable:
+
+- prove the lane before broadening claims
+- harden the contract before widening the surface
+- treat silent degradation as something worth governing
+- convert repeated operational evidence into small framework artifacts rather than core inflation
 
 ---
 
@@ -201,23 +220,17 @@ Together, they make the Alpha 2 loop concrete:
 
 ## What Alpha 2 should prove with this
 
-By adding the pilot conversion loop, AletheIA should show that:
+By making pilot conversion explicit, AletheIA should show that:
 
 - real pilots do not remain isolated stories
 - framework maturity can be fed by disciplined field evidence
 - repo evolution can stay small, explicit, and traceable
+- new guidance can harden because the field taught something concrete, not because the framework wanted to grow
 
 ---
 
-## Future evolution
+## Example
 
-Later versions may add:
+See:
 
-- explicit pilot-to-artifact mapping tables
-- scorecards for conversion quality
-- links between learnings and merged PRs
-- domain-specific conversion patterns
-
-Alpha 2 does not need that yet.
-
-It only needs a visible and repeatable conversion path.
+- `examples/pilot-conversion/crisis-monitor-real-world-validation.md`

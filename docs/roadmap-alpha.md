@@ -92,6 +92,8 @@ Current Alpha 2 bridge artifacts now include:
 
 Together, these four artifacts define how AletheIA learns from pilots, improves itself, and preserves the boundary between reusable core and local project context.
 
+Recent Crisis Monitor validation now gives Alpha 2 a stronger bridge than early explicability alone. The bridge is now supported by a real sequence of product proof, contract hardening, operational health reading, investigation, and compact lane summary before the learnings return to the framework.
+
 ---
 
 ## Alpha 3 — Adoption + Ecosystem
@@ -344,6 +346,8 @@ Together, these artifacts now define a first operational-composition baseline an
 - make iterative maintenance rounds more legible through composed slices, regression-aware gates, and reusable learning
 
 Alongside that operational layer, the starter-pack now also carries an advisory-only model-strategy guidance slice for matching task shape, capability profile, reasoning depth, and trust / hosting posture without turning model choice into a framework-level rule.
+
+The iterative-maintenance slice now has stronger operational grounding as well: it should be read as a proportional pattern for important loops where proof, contract, health metric, alert, investigation, and lane summary make continuation safer without becoming a universal requirement.
 
 ---
 

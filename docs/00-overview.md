@@ -28,7 +28,7 @@ The public repository is organized around three blocks:
    - how pilot learnings return into framework evolution
    - how self-application, pilot conversion, and project extension stay connected
 
-The Crisis Monitor pilot is the first concrete example of this bridge.
+The Crisis Monitor pilot is the first concrete example of this bridge, and it now includes real-world validation beyond the first explicability slice.
 
 The key idea is simple:
 
@@ -37,7 +37,7 @@ AletheIA should be reusable outside the original pilot while still preserving th
 That reuse depends on an explicit boundary between the framework core and each project's local extension layer.
 
 
-At this point, Alpha 2 is organized around four explicit bridge artifacts:
+At this point, Alpha 2 is organized around four explicit bridge artifacts and is now supported by stronger real-world validation from the Crisis Monitor pilot:
 
 - `docs/self-application.md`
 - `docs/pilot-crisis-monitor.md`
@@ -113,6 +113,7 @@ This means the current operational-composition baseline can now be read across:
 - optional filesystem-based context routing experiments
 - round-based maintenance guidance over existing work-slice contracts
 - regression-aware continuation and reusable learning across rounds
+- a more tangible operational reading of important loops through proof, contract, health, alert, investigation, and lane summary
 
 Alongside that operational layer, the starter-pack now also carries an advisory-only model-strategy guidance slice that helps projects map task shape, capability profile, reasoning depth, and trust / hosting posture into their local model fleets without making vendor choice part of the framework core.
 

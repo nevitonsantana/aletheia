@@ -82,6 +82,7 @@ Examples:
 - governance baseline passes
 - tests still pass
 - docs align with implementation
+- a pilot-derived claim can be connected back to real evidence
 
 ### 4. A durable learning
 
@@ -108,6 +109,23 @@ This is the practical bridge between:
 
 ---
 
+## What recent real-world validation added
+
+The Crisis Monitor pilot made the self-application loop more concrete because it did not stop at an initial product proof.
+
+The recent sequence moved through:
+
+1. authenticated smoke of a real flow
+2. explainability contract hardening
+3. health metric and alert around the lane
+4. investigable decision feed
+5. compact lane scorecard
+6. conversion of those learnings into new framework guidance
+
+That matters because it shows self-application as a chain of small reviewable moves, not as a vague promise to “learn from pilots later.”
+
+---
+
 ## What self-application is not
 
 Self-application is not:
@@ -115,6 +133,7 @@ Self-application is not:
 - forcing every tiny change through heavy artifacts
 - pretending the framework is already fully automated
 - blocking momentum with unnecessary ceremony
+- copying product observability mechanics directly into the framework core
 
 It is a discipline of proportion.
 
@@ -130,6 +149,7 @@ Alpha 2 is going well when:
 - the repo shows why something changed, not only that it changed
 - the public narrative and the internal reasoning stay aligned
 - the framework starts to improve itself with its own language
+- real-world validation creates smaller reusable artifacts instead of larger speculative machinery
 
 ---
 
@@ -155,23 +175,22 @@ By adding the self-application loop, AletheIA should show that:
 - the framework can shape its own evolution
 - pilot learnings can become reusable artifacts
 - repo evolution can be governed without becoming rigid
+- real pilot evidence can harden the framework without turning product details into framework law
 
 ---
 
-## Future evolution
+## Relationship to pilot conversion
 
-Later versions may connect self-application more directly to:
+Self-application explains how the framework should govern its own evolution.
 
-- explicit task briefs for framework work
-- policy trace for repo evolution
-- pilot-to-framework scorecards
-- project extension patterns
+Pilot conversion explains how field learnings should enter that evolution.
+
+Together, they make the Alpha 2 loop concrete:
+
+`pilot -> learning -> conversion -> framework improvement`
 
 See also:
 
+- `docs/pilot-crisis-monitor.md`
 - `docs/pilot-conversion.md`
 - `docs/project-extension-pattern.md`
-
-Alpha 2 does not need all of that on day one.
-
-It only needs to make the loop visible and repeatable.

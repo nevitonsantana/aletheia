@@ -31,6 +31,8 @@ Se os schemas explicam **a estrutura** e os docs explicam **a lógica**, os exem
   - mostra routing provider-agnostic e um profile local ilustrativo para fleets mistos de modelos
 - `iterative-maintenance/`
   - mostra um loop de manutenção em três rodadas com regressão escalando o gate e gerando learning reutilizável
+- `pilot-conversion/`
+  - mostra como uma validação real no Crisis Monitor vira endurecimento pequeno e reutilizável no framework
 
 ---
 
@@ -61,8 +63,10 @@ O alpha agora já cobre:
 - examples of structured risk inference for bounded semantic-risk scenarios
 - advisory-only model-strategy examples for task-to-model-fit guidance
 - iterative maintenance examples where regression changes the round gate instead of remaining only a final observation
+- pilot-conversion examples where real-world validation becomes a smaller framework improvement instead of core inflation
 
-Together, these newer examples make the repo more practical in two directions:
+Together, these newer examples make the repo more practical in three directions:
 
 - how to choose model fit without making vendor choice part of the core
 - how to carry maintenance work across rounds without treating regression as a purely final metric
+- how to convert real pilot evidence into small reusable framework changes
