@@ -148,7 +148,7 @@ It was born from real operational work inside the `Crisis Monitor` project and t
 Today, this public draft already contains:
 
 - an Alpha 1 baseline for governance, token discipline, durable decisions, enforcement clarity, quality, and learnings
-- an explicit Alpha 2 bridge for self-application, pilot conversion, and project extension
+- an explicit Alpha 2 bridge for self-application, pilot conversion, and project extension, now reinforced by real-world Crisis Monitor validation
 - an Alpha 3 adoption baseline for getting started, existing-project application, contribution guidance, and starter-pack reuse
 - an Alpha 4 handoff baseline for model-agnostic restart packages, project conventions, and semi-automated handoff capture
 - an Alpha 5 experimental baseline for structured risk inference in higher-risk work, including concrete example artifacts
@@ -170,7 +170,7 @@ In practical terms, that currently includes:
 - a reusable starter-pack slice
 - an advisory-only model-strategy guidance slice for task shape, capability profile, reasoning depth, and trust / hosting fit
 - a first structured risk inference slice
-- a first iterative-maintenance governance slice for round-based continuation, regression-aware gates, and reusable learning across rounds
+- a first iterative-maintenance governance slice for round-based continuation, regression-aware gates, reusable learning across rounds, and a clearer proportional pattern of proof, contract, health, alert, investigation, and summary
 - concrete example artifacts for bounded semantic-risk scenarios
 - a first concrete distribution baseline for packaging shape, delivery surface, adoption depth, and meaning preservation across surfaces
 - a lightweight operational-composition baseline for work slices, risk-to-gate mapping, compact handoff continuity, iterative maintenance guidance, and optional filesystem context-routing experiments
@@ -194,8 +194,9 @@ If this is your first time here, start with:
 10. `docs/self-application.md`
 11. `docs/pilot-crisis-monitor.md`
 12. `docs/pilot-conversion.md`
-13. `docs/project-extension-pattern.md`
-14. `docs/apply-to-existing-project.md`
+13. `examples/pilot-conversion/crisis-monitor-real-world-validation.md`
+14. `docs/project-extension-pattern.md`
+15. `docs/apply-to-existing-project.md`
 15. `CONTRIBUTING.md`
 16. `starter-pack/`
 17. `starter-pack/templates/project-extension-template.md`
@@ -228,12 +229,12 @@ The next steps are:
 
 - keep the current Alpha 6 baseline coherent without losing the Alpha 5 inference baseline, the Alpha 4 handoff baseline, or the Alpha 3 adoption gains
 - keep validating the Crisis Monitor pilot and adjacent real slices
-- keep converting pilot learnings into framework improvements
+- keep converting pilot learnings into framework improvements with the Crisis Monitor pilot as the strongest current Alpha 2 evidence
 - keep using AletheIA to improve AletheIA itself
 - keep Alpha 5 proportional, selective, and grounded in bounded semantic-risk scenarios
 - keep the operational-composition baseline lightweight, teachable, and clearly outside the core contracts
 - keep the new model-strategy guidance advisory-only, provider-agnostic in the framework, and translated locally by each project
-- keep iterative-maintenance guidance focused on round legibility, regression-aware continuation, and reusable learning rather than benchmark imitation
+- keep iterative-maintenance guidance focused on round legibility, regression-aware continuation, reusable learning, and proportional proof/health reads rather than benchmark imitation
 - keep experimental workspace context routing optional, inspectable, and clearly non-canonical
 - keep Alpha 6 focused on distribution clarity rather than tooling promises
 - keep Alpha 7 small, bounded, and tooling-light even as its baseline becomes clearer
