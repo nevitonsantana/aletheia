@@ -19,6 +19,8 @@ These examples show:
   - shows task-shape to capability-profile recommendations without naming vendors
 - `mixed-fleet-local-profile.md`
   - shows an illustrative local profile using a mixed fleet of hosted and self-hosted models
+- `approved-usage-plan.md`
+  - shows how a local team may agree on a short-lived model usage plan without turning it into framework enforcement
 
 ---
 

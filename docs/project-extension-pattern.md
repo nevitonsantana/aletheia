@@ -60,6 +60,7 @@ This includes things such as:
 - domain terminology
 - provider choices
 - local model strategy profiles tied to the available fleet, budget, and hosting posture
+- optional user-approved usage plans for a session, workstream, or feature slice
 - local handoff patterns
 - risk policies that depend on the project context
 
@@ -140,6 +141,8 @@ It usually depends on:
 - tool support in the local workflow
 
 That is why AletheIA should teach the pattern without turning one project's model stack into framework truth.
+
+In the same way, a project may define a short-lived usage plan for a feature or session without turning that plan into framework enforcement.
 
 See:
 

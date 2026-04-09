@@ -174,6 +174,29 @@ AletheIA should not keep a premium model in the loop once the hard part is over.
 
 ---
 
+
+## Usage-plan posture
+
+A useful local next step is to turn the guidance into a **user-approved usage plan** for a session, workstream, or feature slice.
+
+That plan may say things such as:
+
+- which model class is preferred for planning
+- which model class is preferred for execution
+- which fallback is acceptable
+- when a stronger model is justified
+- when a cheaper model is enough
+- what trust / hosting boundary applies
+
+This is still **advisory-only**.
+The plan may guide choices, but it does not remove the user's ability to override them.
+
+The important distinction is:
+
+- a usage plan can make local defaults explicit
+- a usage plan does **not** imply automatic model switching in the framework
+- a usage plan does **not** make a project-local preference into framework truth
+
 ## User override principle
 
 AletheIA suggests.
@@ -185,6 +208,7 @@ That means:
 - a user may deliberately choose a different model
 - the local project may document trade-offs, warnings, or preferences
 - this guide does **not** require automatic blocking or automatic routing
+- a user-approved usage plan may organize local defaults, but it still does not authorize framework-level auto-routing
 
 Good override examples:
 

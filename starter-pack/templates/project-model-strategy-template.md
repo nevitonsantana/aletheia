@@ -85,6 +85,36 @@ State any project-local constraints such as:
 
 ---
 
+
+## Optional session or feature usage plan
+
+Use this section when a team wants to agree on a short-lived plan before work starts.
+
+Examples:
+- planning for this feature should default to the deep planner / reviewer profile
+- bounded implementation should default to the balanced executor profile
+- handoff packaging may use a cheaper or self-hosted option when trust posture requires it
+- fallback is acceptable when the preferred model is unavailable or disproportional
+
+### Planning default for this work
+
+### Execution default for this work
+
+### Review default for this work
+
+### Handoff / compression default for this work
+
+### Fallbacks allowed for this work
+
+### Trust / hosting posture for this work
+
+### Reminder
+
+This usage plan is still advisory.
+It helps the team align before the work starts, but it does not remove user override.
+
+---
+
 ## User override policy
 
 This profile is **recommended**, not obligatory.
