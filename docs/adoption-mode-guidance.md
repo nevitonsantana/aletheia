@@ -2,7 +2,7 @@
 
 ## Goal
 
-This document defines a first future-facing guide for AletheIA adoption modes.
+This document defines a first concrete guide for AletheIA adoption modes.
 
 In simple terms:
 
@@ -158,6 +158,23 @@ Good selection signals include:
 
 ---
 
+## Selection sequence in practice
+
+A practical Alpha 6 read is:
+
+1. choose the **preset**
+2. choose the **adapter**
+3. choose the **adoption mode**
+4. freeze the **project extension boundary**
+
+See:
+
+- `examples/distribution/constrained-adoption-mapping.md`
+
+This keeps adoption mode from floating as a purely abstract label.
+
+---
+
 ## What adoption modes should not do
 
 Adoption modes should not:
@@ -208,5 +225,6 @@ The adoption mode model is healthy when:
 - `docs/distribution-presets-adapters.md`
 - `docs/preset-taxonomy.md`
 - `docs/adapter-taxonomy.md`
-- `docs/apply-to-existing-project.md`
+- `docs/project-extension-pattern.md`
+- `examples/distribution/constrained-adoption-mapping.md`
 - `docs/roadmap-alpha.md`

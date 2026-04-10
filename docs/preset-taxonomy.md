@@ -2,7 +2,7 @@
 
 ## Goal
 
-This document defines a first future-facing taxonomy for AletheIA presets.
+This document defines a first concrete taxonomy for AletheIA presets.
 
 In simple terms:
 
@@ -13,7 +13,7 @@ it needs a clearer idea of what kinds of preset should exist before any heavier 
 
 ## Why this matters
 
-AletheIA is already gaining a stronger core, better adoption materials, a handoff baseline, and an experimental inference baseline.
+AletheIA already has a stronger core, better adoption materials, a handoff baseline, and an experimental inference baseline.
 
 The next distribution question is not only:
 
@@ -60,7 +60,7 @@ Examples:
 
 - web application
 - AI product
-- regulated workflow
+- constrained workflow
 - lightweight internal tool
 
 ### 2. Operating depth
@@ -177,6 +177,22 @@ This preset should remain careful not to imply that those future packs are alrea
 
 ---
 
+## A tangible selection example
+
+See:
+
+- `examples/distribution/constrained-adoption-mapping.md`
+
+That example shows how a project can choose:
+
+- an **existing project adoption** preset
+- a **repo-native + agent-instruction** adapter combination
+- a **standard** adoption mode
+
+without treating those choices as a fork of the framework.
+
+---
+
 ## What a preset should not do
 
 A preset should not:
@@ -220,6 +236,7 @@ The preset taxonomy is healthy when:
 ## Suggested next reading
 
 - `docs/distribution-presets-adapters.md`
-- `docs/domain-governance-packs.md`
+- `docs/adoption-mode-guidance.md`
 - `docs/project-extension-pattern.md`
+- `examples/distribution/constrained-adoption-mapping.md`
 - `docs/roadmap-alpha.md`
