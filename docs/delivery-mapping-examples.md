@@ -2,12 +2,12 @@
 
 ## Goal
 
-This document provides first future-facing examples of how the same AletheIA meaning can be mapped across different delivery surfaces.
+This document provides first concrete examples of how the same AletheIA meaning can be mapped across different delivery surfaces.
 
 In simple terms:
 
 if Alpha 6 is about distribution without core distortion,
-it should show a few concrete examples of how one framework concept can appear in more than one surface without changing its meaning.
+it should show a few practical examples of how one framework concept can appear in more than one surface without changing its meaning.
 
 ---
 
@@ -180,6 +180,23 @@ A fuller operating surface might say:
 
 ---
 
+## Example 6 — Constrained local distribution
+
+See:
+
+- `examples/distribution/constrained-adoption-mapping.md`
+
+That example shows a tangible Alpha 6 combination:
+
+- **preset**: existing project adoption
+- **adapters**: repo-native + agent instruction
+- **adoption mode**: standard
+- **project extension**: local constraints kept outside framework core
+
+This helps make Alpha 6 easier to explain as plugable through local extension without claiming enterprise-readiness.
+
+---
+
 ## What these examples should not become
 
 These examples should not become:
@@ -211,4 +228,5 @@ The delivery mapping model is healthy when:
 - `docs/preset-taxonomy.md`
 - `docs/adapter-taxonomy.md`
 - `docs/adoption-mode-guidance.md`
+- `examples/distribution/constrained-adoption-mapping.md`
 - `docs/roadmap-alpha.md`

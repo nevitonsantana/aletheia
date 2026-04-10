@@ -2,7 +2,7 @@
 
 ## Goal
 
-This document defines a first future-facing taxonomy for AletheIA adapters.
+This document defines a first concrete taxonomy for AletheIA adapters.
 
 In simple terms:
 
@@ -188,6 +188,22 @@ This family should remain future-facing until Alpha 7 is active.
 
 ---
 
+## A tangible mapping example
+
+See:
+
+- `examples/distribution/constrained-adoption-mapping.md`
+
+That example shows how the same project can keep:
+
+- repo-native docs as the canonical surface
+- an agent-instruction surface as a compressed operational surface
+- project extension as the place where local constraints live
+
+without changing the meaning of the framework itself.
+
+---
+
 ## What an adapter should not do
 
 An adapter should not:
@@ -232,6 +248,6 @@ The adapter taxonomy is healthy when:
 
 - `docs/distribution-presets-adapters.md`
 - `docs/preset-taxonomy.md`
-- `docs/agent-handoffs.md`
-- `docs/structured-risk-inference.md`
+- `docs/adoption-mode-guidance.md`
+- `examples/distribution/constrained-adoption-mapping.md`
 - `docs/roadmap-alpha.md`
