@@ -2,7 +2,7 @@
 
 Thank you for contributing to AletheIA.
 
-AletheIA is in a **late Alpha completion cycle before 1.0**, so the most valuable contributions right now are the ones that improve clarity, reviewability, reuse, and practical adoption **without opening new strategic tracks before the open Alpha work is sufficiently closed**.
+AletheIA is now in its **1.0 baseline phase**, so the most valuable contributions are the ones that improve clarity, reviewability, reuse, and practical adoption **without distorting the boundaries that made the baseline coherent enough for 1.0**.
 
 ---
 
@@ -18,7 +18,7 @@ Please prioritize contributions that improve:
 - quality baseline
 - starter-pack reuse
 - adoption without premature complexity
-- coherence of the open Alpha completion work
+- coherent post-1.0 evolution
 
 ---
 
@@ -31,13 +31,10 @@ Strong contribution areas right now include:
 - schemas
 - deterministic tests
 - starter-pack guides and templates
-- roadmap alignment
+- roadmap alignment for 1.1+
 - adoption guidance
 - pilot-to-framework learnings that clearly generalize
-- Alpha 4 handoff coherence
-- Alpha 5 inference hardening without over-expansion
-- Alpha 6 tangibility without premature enterprise claims
-- Alpha 7 boundary clarity without tooling inflation
+- hardening of the post-1.0 evolution tracks without inflating the core
 
 ---
 
@@ -51,7 +48,7 @@ Please make sure that:
 - tests still pass when relevant
 - public docs stay understandable for non-specialists
 - the change does not silently turn project-specific residue into framework core
-- the change does not pull deferred post-1.0 tracks into the current priority lane unless it directly helps Alpha completion
+- the change does not overclaim readiness beyond the current roadmap stage
 
 ---
 
@@ -64,12 +61,10 @@ Before opening a change, ask:
 - is this improving the reusable framework core?
 - is this a starter-pack improvement?
 - is this a pilot learning that really generalizes?
-- is this helping close an Alpha that is still open before 1.0?
+- is this part of the current 1.x roadmap?
 - is this still specific to one project and therefore better left out of the public core?
 
 If the answer is mostly project-specific, prefer keeping it local or documenting it as a project extension pattern instead of promoting it directly into the framework core.
-
-If the change mostly belongs to a deferred post-1.0 track, it is probably premature unless it also makes the current Alpha completion pass clearer or safer.
 
 ---
 
@@ -81,7 +76,7 @@ Framework-core contributions are a good fit when they are:
 - understandable without one product's vocabulary
 - about operating discipline, contracts, governance, validation, or learnings
 - helpful as a teaching artifact for adopters
-- aligned with the current completion-first roadmap
+- aligned with the current 1.x roadmap
 
 Examples:
 
@@ -89,7 +84,7 @@ Examples:
 - starter-pack patterns that generalize well
 - roadmap-aligned adoption docs
 - validation and test improvements for the framework itself
-- Alpha-completion hardening that improves coherence without inflating the core
+- bounded post-1.0 hardening that improves coherence without inflating the core
 
 ---
 
@@ -110,7 +105,7 @@ These may still be valuable as:
 - project extensions
 - pilot write-ups
 - future examples
-- deferred post-1.0 tracks
+- post-1.0 tracks
 
 ---
 
@@ -145,7 +140,7 @@ A good contribution should make it easy for a reviewer to answer:
 - what stays out of scope?
 - how was it validated?
 - what should a future contributor learn from this change?
-- does this help the current Alpha completion path, or is it better deferred?
+- is this aligned with the current 1.x roadmap?
 
 ---
 
@@ -177,7 +172,7 @@ Avoid:
 - hidden coupling
 - provider lock-in in the core
 - making the framework sound stronger than it currently is
-- opening post-1.0 roadmap scope before the current Alpha work is sufficiently closed
+- turning future tracks into implicit baseline requirements
 
 ---
 
@@ -185,6 +180,8 @@ Avoid:
 
 Before contributing, it may help to read:
 
+- `README.md`
+- `CHANGELOG.md`
 - `docs/getting-started.md`
 - `docs/roadmap-alpha.md`
 - `docs/release-1.0-readiness.md`

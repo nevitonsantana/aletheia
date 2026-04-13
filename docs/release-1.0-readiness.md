@@ -1,122 +1,102 @@
 # AletheIA 1.0 Readiness Gate
 
-This document exists to answer one question clearly:
+This document originally existed to answer one question clearly:
 
-**what still needs to be true before AletheIA can stop presenting itself as an alpha and become 1.0?**
+**what still needed to be true before AletheIA could stop presenting itself as an alpha and become 1.0?**
 
-The current rule is explicit:
+That gate is now satisfied.
 
-> **AletheIA reaches 1.0 when Alpha 1–7 are done enough for the baseline, not when every future track is finished.**
+> **AletheIA 1.0 is the point where Alpha 1–7 are done enough for the baseline, even though future tracks still remain open.**
 
 That means:
 
-- 1.0 is blocked by the **open Alpha completion work**
-- 1.0 is **not** blocked by enterprise-readiness, domain packs, or heavier tooling
-- those later tracks remain valid, but they move into **post-1.0 roadmap work**
+- the Alpha completion-first queue is now considered sufficiently closed for the baseline
+- 1.0 is **not** claiming enterprise-readiness, domain-pack completion, or active tooling implementation
+- those later tracks remain valid as **post-1.0 roadmap work**
 
 ---
 
-## Why 1.0 is gated by Alpha completion
+## Why 1.0 was gated by Alpha completion
 
-The Alpha roadmap is the backbone of the framework.
+The Alpha roadmap was the backbone of the framework.
 
-If AletheIA declared 1.0 before the open Alphas are sufficiently hardened, the framework would create avoidable ambiguity about:
+AletheIA only moved out of alpha framing after the open Alpha work was hardened enough to remove avoidable ambiguity about:
 
 - what is already stable enough to teach
-- what still needs operational hardening
-- what is intentionally future-facing
+- what remains future-facing but bounded
+- what should move into 1.1, 1.2, 1.3, and later
 
-So the 1.0 gate exists to make three things explicit:
+So 1.0 should be read as:
 
-1. **Alpha 1–3 are already complete enough** for the current cycle
-2. **Alpha 4–7 still need specific completion work**
-3. **post-1.0 tracks stay deferred until that completion work is done**
+- a **baseline release**
+- not the end of framework evolution
+- not a claim that every future track is complete
 
 ---
 
 ## Current Alpha status
 
-### Complete enough for the current cycle
+### Done enough for the 1.0 baseline
 
 - **Alpha 1** — core + governance baseline
 - **Alpha 2** — real pilots + self-application
 - **Alpha 3** — adoption + ecosystem baseline
-
-### Still open for the 1.0 gate
-
-- **Alpha 4** — baseline established, still open
-- **Alpha 5** — baseline established, still open
-- **Alpha 6** — baseline established, still open
-- **Alpha 7** — future-facing but bounded, still not 1.0-ready
-
-See also:
-
-- `docs/roadmap-alpha.md`
+- **Alpha 4** — handoff baseline hardened enough for restartable multi-boundary continuity
+- **Alpha 5** — structured risk inference hardened enough as a selective experimental baseline
+- **Alpha 6** — distribution baseline made tangible enough through presets, adapters, adoption modes, and a constrained mapping example
+- **Alpha 7** — tooling layer bounded clearly enough as optional and future-facing
 
 ---
 
-## Done-enough criteria by Alpha
+## What changed during the completion pass
 
-### Alpha 1 — done enough
+### Alpha 4
 
-Already sufficient for the current cycle.
-No new blocker is defined here beyond keeping the baseline coherent.
+Reached done-enough status through:
 
-### Alpha 2 — done enough
+- clearer boundary language between minimum schema-backed continuity and richer operational handoff
+- stronger multi-boundary continuity guidance
+- a stronger example showing chains of compact restart packages
 
-Already sufficient for the current cycle.
-No new blocker is defined here beyond keeping the pilot-to-framework bridge coherent.
+### Alpha 5
 
-### Alpha 3 — done enough
+Reached done-enough status through:
 
-Already sufficient for the current cycle.
-No new blocker is defined here beyond keeping adoption guidance and starter-pack clarity coherent.
+- clearer selective trigger posture
+- stronger connection to risk-to-gate mapping
+- stronger connection to iterative maintenance and regression-aware continuation
+- a near-real example showing when degradation signals justify inference
 
-### Alpha 4 — done enough when
+### Alpha 6
 
-- handoff docs, template, and examples are coherent without a meaningful gap between concept and use
-- the boundary between schema coverage and richer operational handoff practice is clear
-- at least one strong multi-boundary continuity example exists if the current examples still feel too light
+Reached done-enough status through:
 
-### Alpha 5 — done enough when
+- clearer preset / adapter / adoption-mode relationships
+- a practical selection recipe
+- a constrained adoption mapping example showing plugability through local extension without overclaiming readiness
 
-- it remains selective rather than universal
-- it has more tangible real or near-real evidence
-- it is better coupled to risk-to-gate and iterative maintenance
-- it is clearer when structured inference adds value and when it only adds overhead
+### Alpha 7
 
-### Alpha 6 — done enough when
+Reached done-enough status through:
 
-- presets, adapters, and adoption modes feel more tangible
-- at least one more concrete extension or distribution example exists
-- plugability is better explained without drifting into enterprise-readiness claims
-
-### Alpha 7 — done enough for 1.0 when
-
-- it remains explicitly optional and future-facing
-- generator, output, and tooling-boundary docs are coherent with each other
-- the roadmap no longer implies that 1.0 depends on real tooling implementation
-
-Important:
-
-**Alpha 7 does not need active tooling implementation before 1.0.**
-It only needs a clear, bounded, non-misleading definition.
+- consistent optional / future-facing wording
+- clearer tooling stop lines
+- clearer generator and output contracts as doc-level future contracts only
+- an illustrative reviewable output example that does not require implementation
 
 ---
 
-## 1.0 public-release checklist
+## 1.0 release checklist completed
 
-The 1.0 flip should happen only after the open Alpha criteria above are satisfied.
+The public 1.0 flip included:
 
-At that moment, the public release checklist is:
+- removing alpha framing from public-facing docs
+- updating central docs to say **AletheIA 1.0** clearly and consistently
+- adding `"version": "1.0.0"` to `package.json`
+- creating `CHANGELOG.md`
+- preparing the public versioned baseline for 1.x evolution
 
-- remove public-facing language that still frames the repo as an alpha or draft
-- update central docs to say **AletheIA 1.0** clearly and consistently
-- add `"version": "1.0.0"` to `package.json`
-- create `CHANGELOG.md`
-- prepare and publish the public tag/release `v1.0.0`
-
-### Public surfaces to update at the 1.0 flip
+### Public surfaces updated at the 1.0 flip
 
 - `README.md`
 - `docs/00-overview.md`
@@ -130,11 +110,11 @@ At that moment, the public release checklist is:
 
 ## What remains post-1.0
 
-These tracks remain real and already planned, but they are **not** part of the 1.0 gate.
+These tracks remain real and already planned, but they were **not** required for the 1.0 baseline.
 
 ### 1.1 — enterprise-readiness / regulated adoption
 
-Preserved backlog includes:
+Planned backlog includes:
 
 - enterprise-readiness / regulated adoption roadmap
 - enterprise adoption guidance
@@ -143,7 +123,7 @@ Preserved backlog includes:
 
 ### 1.2 — pilot expansion / stronger real-world validation
 
-Preserved backlog includes:
+Planned backlog includes:
 
 - expansion beyond the strongest current pilot lane
 - more real-world comparisons between extensions
@@ -151,15 +131,15 @@ Preserved backlog includes:
 
 ### 1.3 — distribution & delivery hardening
 
-Preserved backlog includes:
+Planned backlog includes:
 
-- broader distribution hardening beyond “done enough”
+- broader distribution hardening beyond the 1.0 baseline
 - stronger post-baseline preset and adapter material
 - more delivery-layer clarity once the baseline is already stable
 
 ### 1.4+ — domain governance packs hardening
 
-Preserved backlog includes:
+Planned backlog includes:
 
 - stronger domain governance packs
 - reusable trust-boundary and prompt-injection layers
@@ -167,32 +147,20 @@ Preserved backlog includes:
 
 ---
 
-## Completion-first queue before 1.0
+## What 1.0 means and does not mean
 
-The current pre-1.0 queue is:
-
-1. **Alpha 4 completion pass**
-2. **Alpha 5 hardening pass**
-3. **Alpha 6 tangibility pass**
-4. **Alpha 7 boundary clarification pass**
-
-Until this queue is sufficiently closed, these post-1.0 tracks remain deferred by design.
-
----
-
-## What 1.0 will and will not mean
-
-### 1.0 will mean
+### 1.0 means
 
 - the baseline roadmap is coherent enough to teach, reuse, and evolve publicly
 - Alpha 1–7 are done enough for the baseline
-- the framework can move from alpha framing into versioned 1.x evolution
+- the framework now moves into versioned **1.x evolution**
 
-### 1.0 will not mean
+### 1.0 does not mean
 
 - enterprise-ready by default
 - fully tooled bootstrap and delivery automation
 - every future domain pack already hardened
 - the end of framework evolution
 
-1.0 is the moment when the baseline stops being ambiguous, not the moment when every next track is finished.
+AletheIA 1.0 is the moment when the baseline stops being ambiguous.
+It is not the moment when every next track is finished.

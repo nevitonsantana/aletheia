@@ -92,9 +92,9 @@ This means the framework helps answer questions such as:
 
 ---
 
-## What the current pre-1.0 repository proves
+## What AletheIA 1.0 proves
 
-The current public repository is meant to prove that:
+AletheIA 1.0 proves that:
 
 - an input can become a structured decision
 - governance can block unsafe or poorly framed closure
@@ -102,7 +102,10 @@ The current public repository is meant to prove that:
 - the framework can stay small, inspectable, and deterministic
 - the core can be reused outside its original pilot project
 - pilots can turn into reviewable framework improvements
-- the roadmap can distinguish baseline work from deferred evolution
+- handoffs can preserve restartable continuity across boundaries
+- structured risk inference can exist as a selective experimental layer rather than universal ceremony
+- distribution and delivery can be framed without distorting the core
+- the roadmap can distinguish baseline work from post-baseline evolution
 
 ---
 
@@ -114,7 +117,7 @@ The current public repository is meant to prove that:
 - `examples/` — canonical examples and golden fixtures
 - `tests/` — contract, golden, e2e, and learning-oriented checks
 - `starter-pack/` — reusable operating guides, checklists, and templates
-- `docs/` — architecture, roadmap, pilot narrative, and release-readiness notes
+- `docs/` — architecture, roadmap, pilot narrative, release-readiness notes, and future-facing delivery boundaries
 
 ---
 
@@ -143,32 +146,32 @@ The repository starts with a few small examples that make the framework tangible
 
 ## Current status
 
-AletheIA is still **pre-1.0**.
+This repository is now **AletheIA 1.0.0**.
 
-The repository is now in a **late Alpha completion cycle**:
-
-- **Alpha 1–3** are treated as complete enough for the current cycle
-- **Alpha 4–7** remain active completion or hardening lanes before the 1.0 gate
-- post-baseline tracks such as enterprise-readiness, stronger domain packs, and heavier tooling are preserved, but explicitly deferred until after 1.0
-
-Today, the public repository already contains:
+AletheIA 1.0 includes:
 
 - an Alpha 1 baseline for governance, token discipline, durable decisions, enforcement clarity, quality, and learnings
 - an Alpha 2 bridge for self-application, pilot conversion, and project extension, reinforced by real-world Crisis Monitor validation
 - an Alpha 3 adoption baseline for getting started, existing-project application, contribution guidance, and starter-pack reuse
-- an Alpha 4 handoff baseline for model-agnostic restart packages, project conventions, and semi-automated handoff capture
-- an Alpha 5 experimental baseline for structured risk inference in higher-risk work, including concrete example artifacts
-- an Alpha 6 distribution baseline for presets, adapters, adoption modes, and cross-surface delivery mappings
+- an Alpha 4 handoff baseline for model-agnostic restart packages, project conventions, capture patterns, and stronger multi-boundary continuity
+- an Alpha 5 experimental baseline for structured risk inference in higher-risk work, including stronger links to risk-to-gate mapping and iterative maintenance
+- an Alpha 6 distribution baseline for presets, adapters, adoption modes, cross-surface delivery mappings, and a constrained adoption example
+- an Alpha 7 tooling-boundary baseline for future bootstrap and delivery tooling that remains clearly optional and future-facing
 - a current operational-composition baseline for work slices, risk-to-gate mapping, stronger restart-package examples, round-based maintenance guidance, and optional filesystem context-routing experiments
-- an early Alpha 7 bootstrap-and-delivery baseline for future tooling contracts that remains clearly outside the core
 
-This repository is **not 1.0 yet**.
-The current priority is to close the remaining open Alpha work cleanly before pulling post-1.0 tracks into the main lane.
+AletheIA 1.0 does **not** claim:
+
+- enterprise-ready rollout by default
+- fully tooled bootstrap or delivery automation
+- completed domain governance packs
+
+Those remain part of the post-1.0 roadmap.
 
 See also:
 
 - `docs/roadmap-alpha.md`
 - `docs/release-1.0-readiness.md`
+- `CHANGELOG.md`
 
 ---
 
@@ -213,19 +216,22 @@ If this is your first time here, start with:
 35. `examples/work-slices/standard-slice/README.md`
 36. `examples/handoffs/compact-reviewable-handoff.md`
 37. `examples/handoffs/high-stakes-handoff.md`
-38. `examples/structured-risk-inference/README.md`
+38. `examples/handoffs/multi-boundary-continuity.md`
+39. `examples/structured-risk-inference/README.md`
+40. `examples/distribution/constrained-adoption-mapping.md`
+41. `examples/delivery/reviewable-generated-bundle.md`
 
 ---
 
 ## What happens after 1.0
 
-After the 1.0 gate is satisfied, the roadmap shifts from Alpha completion into **1.x evolution**.
+After the 1.0 baseline, the roadmap shifts into **1.x evolution**.
 
-The next planned lanes are already preserved as deferred tracks:
+The next planned lanes are:
 
 - **1.1** — enterprise-readiness / regulated adoption
 - **1.2** — pilot expansion / stronger real-world validation
 - **1.3** — distribution & delivery hardening
 - **1.4+** — domain governance packs hardening
 
-Those tracks remain valid, but they are intentionally not the current priority lane.
+Those tracks remain valid, but they are intentionally post-baseline work.

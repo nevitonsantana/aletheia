@@ -12,7 +12,7 @@ This document exists to help present AletheIA clearly in public.
 
 ## 3. One-paragraph project description
 
-AletheIA is an operating framework for AI-assisted work. It helps teams structure context, decisions, governance, validation, and learnings before execution, so model output does not act directly on systems without control. The framework is provider-agnostic, deterministic at its core, and designed to be reusable across projects. The public repository is currently in a late Alpha completion cycle before 1.0.
+AletheIA 1.0 is an operating framework for AI-assisted work. It helps teams structure context, decisions, governance, validation, and learnings before execution, so model output does not act directly on systems without control. The framework is provider-agnostic, deterministic at its core, and designed to be reusable across projects.
 
 ## 4. Suggested GitHub topics
 
@@ -27,25 +27,25 @@ AletheIA is an operating framework for AI-assisted work. It helps teams structur
 - typescript
 - workflows
 
-## 5. Announcement copy — current phase
+## 5. Announcement copy — 1.0
 
 ### English
 
-AletheIA is in its final Alpha-completion phase before **1.0**.
+AletheIA 1.0 is now public.
 
 It is an operating framework for AI-assisted work that introduces an explicit layer between model output and execution, with structured decisions, governance, validation, and learnings.
 
-The current focus is to finish the open Alpha work cleanly before moving into the post-1.0 tracks.
+The 1.0 baseline closes the Alpha 1–7 maturity spine and moves the next roadmap into 1.1+ evolution.
 
 Repo: https://github.com/nevitonsantana/aletheia
 
 ### Português
 
-O AletheIA está em sua fase final de fechamento dos Alphas antes da **1.0**.
+O AletheIA 1.0 agora está público.
 
 Ele é um framework operacional para trabalho assistido por IA que introduz uma camada explícita entre output de modelo e execução, com decisão estruturada, governança, validação e learnings.
 
-O foco atual é fechar bem os Alphas ainda abertos antes de avançar para as trilhas pós-1.0.
+A baseline 1.0 fecha a espinha de maturidade Alpha 1–7 e move os próximos passos do roadmap para a evolução em 1.1+.
 
 Repo: https://github.com/nevitonsantana/aletheia
 
@@ -63,7 +63,7 @@ Instead of letting raw model output act directly on the system, AletheIA introdu
 - proportional validation
 - reusable learnings
 
-The public repository is still pre-1.0, but it now has an explicit completion path: finish the remaining Alpha work first, then move into versioned 1.x evolution.
+AletheIA 1.0 means the baseline is now public and coherent enough to teach, reuse, and evolve. It does **not** mean every post-baseline track is already finished.
 
 ### Português
 
@@ -77,4 +77,4 @@ Em vez de permitir que o output bruto do modelo aja diretamente no sistema, o Al
 - validação proporcional
 - learnings reutilizáveis
 
-O repositório público ainda está em fase pré-1.0, mas agora tem um caminho explícito de fechamento: concluir primeiro os Alphas ainda abertos e só depois entrar na evolução versionada em 1.x.
+AletheIA 1.0 significa que a baseline agora está pública e coerente o suficiente para ensinar, reutilizar e evoluir. Isso **não** significa que todas as trilhas pós-baseline já estejam concluídas.

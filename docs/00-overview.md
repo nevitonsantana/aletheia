@@ -1,6 +1,6 @@
 # AletheIA Overview
 
-AletheIA is an operating framework for AI-assisted work with a decision kernel at its center.
+AletheIA 1.0 is an operating framework for AI-assisted work with a decision kernel at its center.
 
 The public repository is organized around four blocks:
 
@@ -28,16 +28,16 @@ The public repository is organized around four blocks:
    - how pilot learnings return into framework evolution
    - how self-application, pilot conversion, and project extension stay connected
 
-4. **release-readiness framing**
-   - what is already baseline enough
-   - what still blocks 1.0
-   - what has been intentionally deferred until after 1.0
+4. **post-baseline framing**
+   - what is now part of the 1.0 baseline
+   - what remains future-facing but bounded
+   - what moves into 1.1, 1.2, 1.3, and later
 
 ---
 
 ## Current phase
 
-AletheIA is currently in a **late Alpha completion cycle before 1.0**.
+AletheIA is now in its **1.0 baseline phase**.
 
 That means the repository now distinguishes between:
 
@@ -45,21 +45,21 @@ That means the repository now distinguishes between:
   - Alpha 1
   - Alpha 2
   - Alpha 3
-- **Alpha completion pass**
   - Alpha 4
   - Alpha 5
   - Alpha 6
   - Alpha 7
-- **deferred until post-1.0**
+- **post-1.0 evolution tracks**
   - enterprise-readiness / regulated adoption
   - stronger pilot expansion
   - broader delivery hardening
   - domain governance packs hardening
 
-The roadmap and 1.0 gate are now read together through:
+The roadmap and release gate are now read together through:
 
 - `docs/roadmap-alpha.md`
 - `docs/release-1.0-readiness.md`
+- `CHANGELOG.md`
 
 ---
 
@@ -73,7 +73,7 @@ AletheIA should be reusable outside the original pilot while still preserving th
 
 That reuse depends on an explicit boundary between the framework core and each project's local extension layer.
 
-At this point, Alpha 2 is organized around four explicit bridge artifacts and is now supported by stronger real-world validation from the Crisis Monitor pilot:
+At this point, Alpha 2 is organized around four explicit bridge artifacts and is supported by stronger real-world validation from the Crisis Monitor pilot:
 
 - `docs/self-application.md`
 - `docs/pilot-crisis-monitor.md`
@@ -102,6 +102,7 @@ Anchored by:
 - `starter-pack/templates/agent-handoff-template.md`
 - `docs/project-handoff-conventions.md`
 - `docs/handoff-capture-pattern.md`
+- `examples/handoffs/multi-boundary-continuity.md`
 
 ### Alpha 5 experimental baseline
 
@@ -113,14 +114,15 @@ Anchored by:
 - `starter-pack/guides/inference-artifact-generation.md`
 - `docs/inference-pilot-scenarios.md`
 - `examples/structured-risk-inference/README.md`
+- `examples/structured-risk-inference/regression-round-inference.json`
 
 This means Alpha 5 can now be read across:
 
 - concept
-- template
 - trigger discipline
 - generation method
-- pilot posture
+- risk-to-gate fit
+- iterative-maintenance fit
 - concrete example artifacts
 
 ### Alpha 6 distribution baseline
@@ -132,6 +134,7 @@ Anchored by:
 - `docs/adapter-taxonomy.md`
 - `docs/adoption-mode-guidance.md`
 - `docs/delivery-mapping-examples.md`
+- `examples/distribution/constrained-adoption-mapping.md`
 
 This means Alpha 6 can now be read across:
 
@@ -139,8 +142,9 @@ This means Alpha 6 can now be read across:
 - delivery surface
 - adoption depth
 - cross-surface meaning preservation
+- plugability through project extension without overclaiming enterprise readiness
 
-### Alpha 7 future-facing tooling baseline
+### Alpha 7 future-facing tooling-boundary baseline
 
 Anchored by:
 
@@ -149,8 +153,9 @@ Anchored by:
 - `docs/bootstrap-output-examples.md`
 - `docs/bootstrap-generator-contract.md`
 - `docs/delivery-output-contract.md`
+- `examples/delivery/reviewable-generated-bundle.md`
 
-This is still a future-facing delivery layer, not an implemented tooling requirement for the 1.0 baseline.
+This is part of the 1.0 baseline because it is now clearly bounded as optional and future-facing, not because active tooling is required.
 
 ---
 
@@ -183,4 +188,4 @@ This layer makes the current baseline more tangible through:
 - regression-aware continuation and reusable learning across rounds
 - advisory-only model strategy by task shape, capability profile, reasoning depth, and trust / hosting posture
 
-This layer is useful, but it does **not** replace the need to close the open Alpha work before 1.0.
+It remains useful precisely because it stays smaller than the core.
