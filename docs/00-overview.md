@@ -197,3 +197,9 @@ The active 1.1 track now also includes a stronger local trust-boundary posture t
 - `docs/local-trust-boundary-posture.md`
 - `starter-pack/templates/local-trust-boundary-template.md`
 - `examples/project-extension/local-trust-boundary-mapping.md`
+
+
+The active 1.1 track now also includes bounded pilot-evidence guidance for constrained adoption through:
+
+- `docs/constrained-adoption-pilot.md`
+- `examples/pilot-conversion/constrained-adoption-bounded-validation.md`

@@ -114,3 +114,11 @@ If your constrained environment needs an explicit local trust and hosting postur
 - `docs/local-trust-boundary-posture.md`
 - `starter-pack/templates/local-trust-boundary-template.md`
 - `examples/project-extension/local-trust-boundary-mapping.md`
+
+
+## 1.1 bounded constrained pilot evidence
+
+If you want to run a bounded pilot in a constrained environment before broader rollout, read:
+
+- `docs/constrained-adoption-pilot.md`
+- `examples/pilot-conversion/constrained-adoption-bounded-validation.md`

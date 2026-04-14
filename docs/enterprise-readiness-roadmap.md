@@ -205,6 +205,11 @@ That means:
 - one proof chain
 - one conversion loop back into the framework if it teaches something reusable
 
+This step now begins with:
+
+- `docs/constrained-adoption-pilot.md`
+- `examples/pilot-conversion/constrained-adoption-bounded-validation.md`
+
 ---
 
 ## Recommended boundaries for 1.1
