@@ -188,6 +188,12 @@ Strengthen the language that local trust and hosting posture should be handled i
 
 not in the framework core.
 
+This step now begins with:
+
+- `docs/local-trust-boundary-posture.md`
+- `starter-pack/templates/local-trust-boundary-template.md`
+- `examples/project-extension/local-trust-boundary-mapping.md`
+
 ### Step 4 — pilot in a constrained environment
 
 Use a bounded, reviewable lane before claiming broader readiness.

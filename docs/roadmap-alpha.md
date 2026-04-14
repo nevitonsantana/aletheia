@@ -219,7 +219,7 @@ Current low-regret hardening now begins with:
 
 Current backlog still includes:
 
-- stronger local trust-boundary posture for constrained environments
+- stronger local trust-boundary posture for constrained environments (now started through docs/template/example)
 - bounded pilot evidence from a constrained environment
 - eventual regulated-domain guidance only if later justified
 

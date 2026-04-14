@@ -190,3 +190,10 @@ This layer makes the current baseline more tangible through:
 - advisory-only model strategy by task shape, capability profile, reasoning depth, and trust / hosting posture
 
 It remains useful precisely because it stays smaller than the core.
+
+
+The active 1.1 track now also includes a stronger local trust-boundary posture through:
+
+- `docs/local-trust-boundary-posture.md`
+- `starter-pack/templates/local-trust-boundary-template.md`
+- `examples/project-extension/local-trust-boundary-mapping.md`

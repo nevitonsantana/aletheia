@@ -105,3 +105,12 @@ If you are applying AletheIA in an environment with heavier approvals, stricter 
 - `docs/enterprise-readiness-roadmap.md`
 - `starter-pack/guides/enterprise-adoption-considerations.md`
 - `examples/project-extension/restricted-enterprise-context.md`
+
+
+## 1.1 local trust-boundary posture
+
+If your constrained environment needs an explicit local trust and hosting posture, read:
+
+- `docs/local-trust-boundary-posture.md`
+- `starter-pack/templates/local-trust-boundary-template.md`
+- `examples/project-extension/local-trust-boundary-mapping.md`
