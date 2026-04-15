@@ -50,16 +50,17 @@ That means the repository now distinguishes between:
   - Alpha 6
   - Alpha 7
 - **post-1.0 evolution tracks**
-  - enterprise-readiness / regulated adoption (now the active 1.1 hardening track)
-  - stronger pilot expansion
-  - broader delivery hardening
-  - domain governance packs hardening
+  - enterprise-readiness / constrained adoption (the active 1.1 hardening track)
+  - resource-aware operations (the queued 1.2 operationalization track)
+  - benchmark and comparative evaluation
+  - learning layer, adaptive orchestration, and later domain governance hardening
 
 The roadmap and release gate are now read together through:
 
 - `docs/roadmap-alpha.md`
 - `docs/release-1.0-readiness.md`
 - `docs/enterprise-readiness-roadmap.md`
+- `docs/resource-aware-operations-roadmap.md`
 - `CHANGELOG.md`
 
 ---

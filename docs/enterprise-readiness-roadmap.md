@@ -254,3 +254,14 @@ This track currently begins with:
 
 These are meant to improve adoption posture first.
 They are not meant to close the whole enterprise-readiness track.
+
+## What follows 1.1
+
+This track should stay focused on constrained adoption and local trust posture.
+It should not become the place where AletheIA tries to solve broader resource-aware operations all at once.
+
+The next queued track after this one is:
+
+- `docs/resource-aware-operations-roadmap.md`
+
+That later track should build on the 1.1 posture work, but it should solve a different problem: making context and resource use more observable, comparable, and reviewable across real runtimes and agents.

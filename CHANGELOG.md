@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+- add a Resource-Aware Operations roadmap as the queued 1.2+ track
+- reposition the post-1.0 roadmap so 1.1 stays constrained-adoption hardening while 1.2 becomes operationalization
+- defer benchmark and learning ambitions into later 1.3+ / 1.4+ tracks instead of treating them as active work now
+
 ## 1.0.0 — 2026-04-09
 
 First public stable baseline of AletheIA.
