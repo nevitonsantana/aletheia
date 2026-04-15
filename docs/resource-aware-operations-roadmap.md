@@ -217,6 +217,9 @@ This phase now begins with:
 - `examples/resource-aware-operations/comparative-review-example.md`
 - `examples/resource-aware-operations/constrained-local-review-example.md`
 - `examples/resource-aware-operations/bounded-pilot-conversion-loop.md`
+- `docs/resource-aware-bounded-pilot.md`
+- `docs/resource-aware-pilot-review-checklist.md`
+- `starter-pack/templates/resource-aware-pilot-review-template.md`
 
 ---
 

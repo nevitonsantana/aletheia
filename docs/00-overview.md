@@ -251,3 +251,11 @@ The next docs-first 1.2 layer after workflow/readiness is a bounded examples-fir
 - `examples/resource-aware-operations/bounded-pilot-conversion-loop.md`
 
 This keeps the track evidential and proportional before any benchmark or learning ambition.
+
+The next bounded 1.2 step after these examples is a real-world pilot layer through:
+
+- `docs/resource-aware-bounded-pilot.md`
+- `docs/resource-aware-pilot-review-checklist.md`
+- `starter-pack/templates/resource-aware-pilot-review-template.md`
+
+This keeps the next move operational and reviewable without reopening benchmark or learning work early.

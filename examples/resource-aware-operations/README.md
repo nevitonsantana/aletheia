@@ -13,3 +13,9 @@ The first examples stay docs-first and intentionally small.
 - `comparative-review-example.md`
 - `constrained-local-review-example.md`
 - `bounded-pilot-conversion-loop.md`
+
+## Related pilot support
+
+- `../../docs/resource-aware-bounded-pilot.md`
+- `../../docs/resource-aware-pilot-review-checklist.md`
+- `../../starter-pack/templates/resource-aware-pilot-review-template.md`

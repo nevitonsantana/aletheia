@@ -261,9 +261,15 @@ The next docs-first layer now also begins with:
 - `examples/resource-aware-operations/constrained-local-review-example.md`
 - `examples/resource-aware-operations/bounded-pilot-conversion-loop.md`
 
+The next bounded 1.2 layer now also begins with:
+
+- `docs/resource-aware-bounded-pilot.md`
+- `docs/resource-aware-pilot-review-checklist.md`
+- `starter-pack/templates/resource-aware-pilot-review-template.md`
+
 Remaining backlog includes:
 
-- stronger bounded real-world conversions before any benchmark or learning ambition
+- stronger real-world pilot evidence before any benchmark or learning ambition
 
 ### 1.3+ — Benchmark and comparative evaluation
 

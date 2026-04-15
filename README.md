@@ -175,6 +175,7 @@ The next 1.2 step now begins to define a minimal provider-agnostic runtime adapt
 It now also adds an advisory runtime/agent decision layer that helps teams reason about over-allocation and under-allocation without introducing auto-routing.
 The next 1.2 step now introduces lightweight planning-depth profiles and readiness gates so teams can judge how much structure a slice needs and whether it is healthy to continue.
 It now also adds the first bounded Phase F examples so the 1.2 track can compare postures, show constrained/local use, and demonstrate pilot conversion before any benchmark or learning layer.
+It now also adds a bounded pilot guide/checklist/template so real-world 1.2 validation can happen before any benchmark or learning-layer escalation.
 
 See also:
 
@@ -209,6 +210,9 @@ If this is your first time here, start with:
 1. `examples/resource-aware-operations/comparative-review-example.md`
 1. `examples/resource-aware-operations/constrained-local-review-example.md`
 1. `examples/resource-aware-operations/bounded-pilot-conversion-loop.md`
+1. `docs/resource-aware-bounded-pilot.md`
+1. `docs/resource-aware-pilot-review-checklist.md`
+1. `starter-pack/templates/resource-aware-pilot-review-template.md`
 1. `docs/architecture.md`
 1. `docs/governance.md`
 1. `docs/token-policy.md`
