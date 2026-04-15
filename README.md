@@ -173,6 +173,7 @@ That 1.2 track now begins with telemetry and waste-reading surfaces rather than 
 It now also includes a first docs-first policy-signals layer that turns telemetry and waste patterns into reviewable advisory signals.
 The next 1.2 step now begins to define a minimal provider-agnostic runtime adapter contract on top of those surfaces.
 It now also adds an advisory runtime/agent decision layer that helps teams reason about over-allocation and under-allocation without introducing auto-routing.
+The next 1.2 step now introduces lightweight planning-depth profiles and readiness gates so teams can judge how much structure a slice needs and whether it is healthy to continue.
 
 See also:
 
@@ -198,7 +199,10 @@ If this is your first time here, start with:
 1. `docs/progressive-policy-signals.md`
 1. `docs/runtime-adapter-contract.md`
 1. `docs/agent-runtime-decision-guide.md`
+1. `docs/planning-depth-profiles.md`
+1. `docs/readiness-gates-spec.md`
 1. `examples/resource-aware-operations/README.md`
+1. `examples/resource-aware-operations/workflow-readiness-example.md`
 1. `examples/resource-aware-operations/agent-runtime-decision-example.md`
 1. `examples/resource-aware-operations/minimal-runtime-adapter-example.md`
 1. `docs/architecture.md`

@@ -249,9 +249,15 @@ The next docs-first layer now also begins with:
 - `docs/agent-runtime-decision-guide.md`
 - `examples/resource-aware-operations/agent-runtime-decision-example.md`
 
+The next docs-first layer now also begins with:
+
+- `docs/planning-depth-profiles.md`
+- `docs/readiness-gates-spec.md`
+- `examples/resource-aware-operations/workflow-readiness-example.md`
+
 Remaining backlog includes:
 
-- planning depth profiles and readiness gates only after observability, signals, the minimal adapter contract, and the advisory fit layer are legible
+- comparative examples and bounded pilot conversion after observability, signals, the minimal adapter contract, the advisory fit layer, and workflow/readiness surfaces are legible
 
 ### 1.3+ — Benchmark and comparative evaluation
 

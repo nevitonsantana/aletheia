@@ -195,6 +195,12 @@ Expected outputs:
 - **Readiness Gates Spec**
 - lightweight workflow guide examples
 
+This phase now begins with:
+
+- `docs/planning-depth-profiles.md`
+- `docs/readiness-gates-spec.md`
+- `examples/resource-aware-operations/workflow-readiness-example.md`
+
 ### Phase F — examples before learning
 
 Before any benchmark or learning ambition, the framework should close the loop through:

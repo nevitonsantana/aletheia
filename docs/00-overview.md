@@ -235,3 +235,11 @@ The next docs-first 1.2 layer after the runtime adapter contract is advisory run
 - `examples/resource-aware-operations/agent-runtime-decision-example.md`
 
 This keeps the framework recommendation-oriented while making runtime fit more explicit across changing slice shapes.
+
+The next docs-first 1.2 layer after advisory runtime fit is a lightweight workflow/readiness surface through:
+
+- `docs/planning-depth-profiles.md`
+- `docs/readiness-gates-spec.md`
+- `examples/resource-aware-operations/workflow-readiness-example.md`
+
+This keeps AletheIA proportional by clarifying how much planning a slice needs and whether it is ready to continue without importing a full delivery methodology.
