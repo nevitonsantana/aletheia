@@ -124,3 +124,12 @@ If you want to run a bounded pilot in a constrained environment before broader r
 - `docs/constrained-pilot-review-checklist.md`
 - `starter-pack/templates/constrained-pilot-review-template.md`
 - `examples/pilot-conversion/constrained-adoption-bounded-validation.md`
+
+## Queued 1.2 operationalization track
+
+The next queued post-1.0 track is resource-aware operations.
+Read:
+
+- `docs/resource-aware-operations-roadmap.md`
+
+This future track should build on the current starter-pack surfaces rather than replace them.

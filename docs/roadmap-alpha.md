@@ -223,29 +223,38 @@ Current backlog still includes:
 - bounded pilot evidence from a constrained environment (now started through docs/example)
 - eventual regulated-domain guidance only if later justified
 
-### 1.2 — Pilot expansion / stronger real-world validation
+### 1.2 — Resource-aware operations
+
+This is the next queued operationalization track after the current 1.1 hardening pass.
 
 Planned backlog includes:
 
-- expansion beyond the strongest current pilot lane
-- more real-world comparisons between project extensions
-- stronger pilot-to-framework conversion evidence
+- context and resource telemetry surfaces
+- lightweight waste heuristics and policy signals
+- minimal runtime adapter contract examples
+- advisory runtime / agent decision guidance
+- planning depth profiles and readiness gates only after observability is legible
 
-### 1.3 — Distribution & delivery hardening
+Anchor roadmap artifact:
 
-Planned backlog includes:
+- `docs/resource-aware-operations-roadmap.md`
 
-- broader distribution hardening beyond the 1.0 baseline
-- stronger preset and adapter tangibility after the baseline
-- additional delivery-layer material once the baseline is already stable
-
-### 1.4+ — Domain governance packs hardening
+### 1.3+ — Benchmark and comparative evaluation
 
 Planned backlog includes:
 
-- stronger domain governance packs
-- reusable trust-boundary and prompt-injection packs
-- heavier Alpha 7 tooling only after later priorities justify it
+- comparative review of slices once telemetry exists
+- stronger benchmark material only after adapter and policy surfaces are real
+- cross-runtime or cross-project evaluation without collapsing into vendor truth
+
+### 1.4+ — Learning layer, adaptive orchestration, and later domain governance hardening
+
+Planned backlog includes:
+
+- learning-layer exploration only after measurement maturity
+- adaptive orchestration only after comparable signals exist
+- stronger domain governance packs later, not as a blocker for 1.2
+- reusable trust-boundary and prompt-injection packs when later priorities justify them
 
 ---
 

@@ -168,6 +168,7 @@ AletheIA 1.0 does **not** claim:
 Those remain part of the post-1.0 roadmap.
 
 The first post-1.0 track now starts with enterprise-oriented hardening for constrained and regulated adoption, but still without claiming enterprise-ready packaging by default.
+The next queued post-1.0 track is resource-aware operations: a docs-first operationalization lane for observability, proportional context/capability allocation, and advisory runtime/agent fit.
 
 See also:
 
@@ -182,47 +183,48 @@ See also:
 If this is your first time here, start with:
 
 1. `docs/getting-started.md`
-2. `docs/00-overview.md`
-3. `docs/roadmap-alpha.md`
-4. `docs/release-1.0-readiness.md`
-5. `docs/enterprise-readiness-roadmap.md`
-5. `docs/architecture.md`
-6. `docs/governance.md`
-7. `docs/token-policy.md`
-8. `starter-pack/guides/model-strategy-by-task.md`
-9. `docs/durable-decisions.md`
-10. `docs/enforcement-boundaries.md`
-11. `docs/quality.md`
-12. `docs/self-application.md`
-13. `docs/pilot-crisis-monitor.md`
-14. `docs/pilot-conversion.md`
-15. `examples/pilot-conversion/crisis-monitor-real-world-validation.md`
-16. `docs/project-extension-pattern.md`
-17. `docs/apply-to-existing-project.md`
-18. `CONTRIBUTING.md`
-19. `starter-pack/README.md`
-20. `starter-pack/templates/project-extension-template.md`
-21. `starter-pack/templates/project-model-strategy-template.md`
-22. `docs/agent-handoffs.md`
-23. `starter-pack/guides/agent-handoff-generation.md`
-24. `starter-pack/templates/agent-handoff-template.md`
-25. `docs/project-handoff-conventions.md`
-26. `docs/handoff-capture-pattern.md`
-27. `docs/work-slice-pattern.md`
-28. `starter-pack/templates/work-slice-template.md`
-29. `starter-pack/guides/risk-to-gate-mapping.md`
-30. `docs/structured-risk-inference.md`
-31. `starter-pack/templates/inference-artifact-template.md`
-32. `starter-pack/guides/inference-trigger-guidance.md`
-33. `starter-pack/guides/inference-artifact-generation.md`
-34. `docs/inference-pilot-scenarios.md`
-35. `examples/work-slices/standard-slice/README.md`
-36. `examples/handoffs/compact-reviewable-handoff.md`
-37. `examples/handoffs/high-stakes-handoff.md`
-38. `examples/handoffs/multi-boundary-continuity.md`
-39. `examples/structured-risk-inference/README.md`
-40. `examples/distribution/constrained-adoption-mapping.md`
-41. `examples/delivery/reviewable-generated-bundle.md`
+1. `docs/00-overview.md`
+1. `docs/roadmap-alpha.md`
+1. `docs/release-1.0-readiness.md`
+1. `docs/enterprise-readiness-roadmap.md`
+1. `docs/resource-aware-operations-roadmap.md`
+1. `docs/architecture.md`
+1. `docs/governance.md`
+1. `docs/token-policy.md`
+1. `starter-pack/guides/model-strategy-by-task.md`
+1. `docs/durable-decisions.md`
+1. `docs/enforcement-boundaries.md`
+1. `docs/quality.md`
+1. `docs/self-application.md`
+1. `docs/pilot-crisis-monitor.md`
+1. `docs/pilot-conversion.md`
+1. `examples/pilot-conversion/crisis-monitor-real-world-validation.md`
+1. `docs/project-extension-pattern.md`
+1. `docs/apply-to-existing-project.md`
+1. `CONTRIBUTING.md`
+1. `starter-pack/README.md`
+1. `starter-pack/templates/project-extension-template.md`
+1. `starter-pack/templates/project-model-strategy-template.md`
+1. `docs/agent-handoffs.md`
+1. `starter-pack/guides/agent-handoff-generation.md`
+1. `starter-pack/templates/agent-handoff-template.md`
+1. `docs/project-handoff-conventions.md`
+1. `docs/handoff-capture-pattern.md`
+1. `docs/work-slice-pattern.md`
+1. `starter-pack/templates/work-slice-template.md`
+1. `starter-pack/guides/risk-to-gate-mapping.md`
+1. `docs/structured-risk-inference.md`
+1. `starter-pack/templates/inference-artifact-template.md`
+1. `starter-pack/guides/inference-trigger-guidance.md`
+1. `starter-pack/guides/inference-artifact-generation.md`
+1. `docs/inference-pilot-scenarios.md`
+1. `examples/work-slices/standard-slice/README.md`
+1. `examples/handoffs/compact-reviewable-handoff.md`
+1. `examples/handoffs/high-stakes-handoff.md`
+1. `examples/handoffs/multi-boundary-continuity.md`
+1. `examples/structured-risk-inference/README.md`
+1. `examples/distribution/constrained-adoption-mapping.md`
+1. `examples/delivery/reviewable-generated-bundle.md`
 
 ---
 
@@ -232,9 +234,9 @@ After the 1.0 baseline, the roadmap shifts into **1.x evolution**.
 
 The next planned lanes are:
 
-- **1.1** — enterprise-readiness / regulated adoption
-- **1.2** — pilot expansion / stronger real-world validation
-- **1.3** — distribution & delivery hardening
-- **1.4+** — domain governance packs hardening
+- **1.1** — enterprise-readiness / constrained adoption hardening
+- **1.2** — resource-aware operations
+- **1.3+** — benchmark and comparative evaluation
+- **1.4+** — learning layer, adaptive orchestration, and later domain governance hardening
 
 Those tracks remain valid, but they are intentionally post-baseline work.
