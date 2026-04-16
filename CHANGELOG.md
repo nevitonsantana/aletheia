@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- add docs-first clean-restart command adapters and a restart bootstrap prompt template on top of slice finalization guidance
+
 - add slice finalization and restart guidance with AI Fatigue control and a copyable restart-package pattern
 
 - add a 1.2 resource-aware operations review to make the current proof level and stop line explicit
