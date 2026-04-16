@@ -278,3 +278,11 @@ The final docs-first 1.2 closure layer now also includes:
 - `docs/resource-aware-operations-review.md`
 
 This gives the track a compact review artifact before any future 1.3 reopening.
+
+A focused operational bridge between Alpha 4 restart packages and the 1.2 resource-aware posture now also includes:
+
+- `docs/slice-finalization-and-restart.md`
+- `starter-pack/templates/slice-finalization-review-template.md`
+- `examples/resource-aware-operations/slice-finalization-reference.md`
+
+This keeps slice closure, clean restart, and AI Fatigue control explicit without introducing runtime-coupled reset behavior.

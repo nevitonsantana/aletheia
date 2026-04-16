@@ -212,6 +212,12 @@ Before any benchmark or learning ambition, the framework should close the loop t
 
 The purpose is to prove that the operational surfaces help in real use before they become a bigger system.
 
+A focused bridge between Alpha 4 handoffs and the 1.2 resource-aware posture now also includes:
+
+- `docs/slice-finalization-and-restart.md`
+- `starter-pack/templates/slice-finalization-review-template.md`
+- `examples/resource-aware-operations/slice-finalization-reference.md`
+
 This phase now begins with:
 
 - `examples/resource-aware-operations/comparative-review-example.md`

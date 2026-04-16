@@ -64,6 +64,7 @@ O alpha agora já cobre:
 - advisory-only model-strategy examples for task-to-model-fit guidance
 - iterative maintenance examples where regression changes the round gate instead of remaining only a final observation
 - pilot-conversion examples where real-world validation becomes a smaller framework improvement instead of core inflation
+- slice-finalization examples where restart packages reduce AI Fatigue without depending on transcript replay
 
 Together, these newer examples make the repo more practical in three directions:
 

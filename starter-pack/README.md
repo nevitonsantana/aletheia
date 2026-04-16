@@ -150,5 +150,8 @@ Read:
 - `examples/resource-aware-operations/resource-aware-pilot-review-reference.md`
 - `docs/resource-aware-next-signals.md`
 - `docs/resource-aware-operations-review.md`
+- `docs/slice-finalization-and-restart.md`
+- `starter-pack/templates/slice-finalization-review-template.md`
+- `examples/resource-aware-operations/slice-finalization-reference.md`
 
 This future track should build on the current starter-pack surfaces rather than replace them.

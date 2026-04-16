@@ -24,6 +24,7 @@ The 1.2 track now has:
 - bounded pilot guidance
 - a real-world Crisis Monitor reference
 - an explicit next-signals stop line
+- slice finalization and restart guidance for reducing AI Fatigue without runtime-coupled reset logic
 
 ---
 
@@ -45,6 +46,7 @@ More specifically, it now proves that the framework can give teams a reviewable 
 - runtime fit
 - planning proportionality
 - readiness to continue, hand off, review, or stop
+- when a clean restart is healthier than continuing inside stale transcript context
 
 ---
 

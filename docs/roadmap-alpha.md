@@ -270,6 +270,9 @@ The next bounded 1.2 layer now also begins with:
 - `examples/resource-aware-operations/resource-aware-pilot-review-reference.md`
 - `docs/resource-aware-next-signals.md`
 - `docs/resource-aware-operations-review.md`
+- `docs/slice-finalization-and-restart.md`
+- `starter-pack/templates/slice-finalization-review-template.md`
+- `examples/resource-aware-operations/slice-finalization-reference.md`
 
 Remaining backlog includes:
 
