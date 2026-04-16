@@ -286,3 +286,11 @@ A focused operational bridge between Alpha 4 restart packages and the 1.2 resour
 - `examples/resource-aware-operations/slice-finalization-reference.md`
 
 This keeps slice closure, clean restart, and AI Fatigue control explicit without introducing runtime-coupled reset behavior.
+
+The next bounded operator-facing adapter layer now also includes:
+
+- `starter-pack/guides/clean-restart-command-adapters.md`
+- `starter-pack/templates/restart-bootstrap-prompt-template.md`
+- `examples/resource-aware-operations/clean-restart-command-adapter-example.md`
+
+This keeps slash-command style delivery in the starter-pack layer while preserving the core as manual-first and runtime-agnostic.

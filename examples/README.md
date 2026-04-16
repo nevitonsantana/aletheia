@@ -65,6 +65,7 @@ O alpha agora já cobre:
 - iterative maintenance examples where regression changes the round gate instead of remaining only a final observation
 - pilot-conversion examples where real-world validation becomes a smaller framework improvement instead of core inflation
 - slice-finalization examples where restart packages reduce AI Fatigue without depending on transcript replay
+- clean-restart adapter examples where slash-command style delivery stays local to the adapter instead of becoming framework truth
 
 Together, these newer examples make the repo more practical in three directions:
 

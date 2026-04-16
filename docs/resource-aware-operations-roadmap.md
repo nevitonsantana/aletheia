@@ -217,6 +217,9 @@ A focused bridge between Alpha 4 handoffs and the 1.2 resource-aware posture now
 - `docs/slice-finalization-and-restart.md`
 - `starter-pack/templates/slice-finalization-review-template.md`
 - `examples/resource-aware-operations/slice-finalization-reference.md`
+- `starter-pack/guides/clean-restart-command-adapters.md`
+- `starter-pack/templates/restart-bootstrap-prompt-template.md`
+- `examples/resource-aware-operations/clean-restart-command-adapter-example.md`
 
 This phase now begins with:
 

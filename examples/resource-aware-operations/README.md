@@ -14,6 +14,7 @@ The first examples stay docs-first and intentionally small.
 - `constrained-local-review-example.md`
 - `bounded-pilot-conversion-loop.md`
 - `slice-finalization-reference.md`
+- `clean-restart-command-adapter-example.md`
 
 ## Related pilot support
 
@@ -24,3 +25,5 @@ The first examples stay docs-first and intentionally small.
 - `../../docs/resource-aware-crisis-monitor-reference.md`
 - `../../docs/slice-finalization-and-restart.md`
 - `../../starter-pack/templates/slice-finalization-review-template.md`
+- `../../starter-pack/guides/clean-restart-command-adapters.md`
+- `../../starter-pack/templates/restart-bootstrap-prompt-template.md`
