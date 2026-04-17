@@ -274,6 +274,7 @@ The next bounded 1.2 layer now also begins with:
 Remaining backlog includes:
 
 - stronger repeated real-world pilot evidence before any benchmark or learning ambition
+- a bounded docs-first clean-restart layer that lets teams test fresh-thread continuation without redefining runtime cache control as framework truth
 
 ### 1.3+ — Benchmark and comparative evaluation
 

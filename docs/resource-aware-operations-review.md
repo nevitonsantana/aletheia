@@ -24,6 +24,7 @@ The 1.2 track now has:
 - bounded pilot guidance
 - a real-world Crisis Monitor reference
 - an explicit next-signals stop line
+- a bounded clean-restart guidance bridge for teams that want to start the next slice in a fresh thread without transcript replay
 
 ---
 

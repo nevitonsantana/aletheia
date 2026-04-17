@@ -179,6 +179,7 @@ It now also adds a bounded pilot guide/checklist/template so real-world 1.2 vali
 It now also includes a bounded Crisis Monitor reference so the 1.2 track has one real-world pilot-shaped reading before any benchmark or learning move.
 It now also defines the next signals that would justify reopening the track for stronger comparative work instead of growing by inertia.
 It now also includes a short 1.2 review so the current scope, proof level, and stop line are explicit.
+It now also adds a bounded slice-finalization and clean-restart layer for teams that want to end one slice and start the next in a fresh thread without turning runtime cache control into framework truth.
 
 See also:
 
@@ -220,6 +221,10 @@ If this is your first time here, start with:
 1. `examples/resource-aware-operations/resource-aware-pilot-review-reference.md`
 1. `docs/resource-aware-next-signals.md`
 1. `docs/resource-aware-operations-review.md`
+1. `docs/slice-finalization-and-clean-restart.md`
+1. `starter-pack/guides/clean-restart-command-adapters.md`
+1. `starter-pack/templates/restart-bootstrap-prompt-template.md`
+1. `examples/resource-aware-operations/clean-restart-command-adapter-example.md`
 1. `docs/architecture.md`
 1. `docs/governance.md`
 1. `docs/token-policy.md`

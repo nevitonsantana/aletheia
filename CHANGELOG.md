@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- add bounded slice-finalization and clean-restart guidance so teams can test fresh-thread continuation through restart packages without claiming runtime cache control
 - add a 1.2 resource-aware operations review to make the current proof level and stop line explicit
 
 - add a resource-aware next-signals guide so the 1.2 track only reopens on stronger evidence

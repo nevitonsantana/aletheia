@@ -125,6 +125,18 @@ If you want to run a bounded pilot in a constrained environment before broader r
 - `starter-pack/templates/constrained-pilot-review-template.md`
 - `examples/pilot-conversion/constrained-adoption-bounded-validation.md`
 
+## Bounded clean-restart guidance
+
+If you want to test ending one slice, starting the next slice in a fresh thread, and avoiding transcript replay, read:
+
+- `docs/slice-finalization-and-clean-restart.md`
+- `starter-pack/guides/clean-restart-command-adapters.md`
+- `starter-pack/templates/restart-bootstrap-prompt-template.md`
+- `examples/resource-aware-operations/clean-restart-command-adapter-example.md`
+
+This layer is docs-first and manual-first.
+It does not claim runtime cache control.
+
 ## Queued 1.2 operationalization track
 
 The next queued post-1.0 track is resource-aware operations.
