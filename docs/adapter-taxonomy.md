@@ -52,6 +52,15 @@ An adapter should answer questions such as:
 The adapter should change the delivery form.
 It should not change the framework truth.
 
+AletheIA distinguishes between an **Execution Surface** and an **Adapter**.
+
+- the execution surface is where the framework is delivered, read, or operated
+- the adapter is the environment-specific mapping that preserves framework meaning across that surface
+
+For canonical terminology, see:
+
+- `docs/canonical-vocabulary.md`
+
 ---
 
 ## Three adapter layers

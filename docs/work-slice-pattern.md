@@ -4,6 +4,12 @@
 
 This document explains how AletheIA can treat a bounded unit of work as a **work slice** without introducing a new core contract.
 
+This document should be read as the operational pattern for `Work Slice`, not as the source of the term itself.
+
+For the canonical definition of `Work Slice` and its relationship to `Work Item`, `Restart Package`, and `Operational Boundary`, see:
+
+- `docs/canonical-vocabulary.md`
+
 A work slice is an operational composition.
 It gathers the artifacts that make one unit of work more resumable, reviewable, and teachable.
 
@@ -50,6 +56,10 @@ Without that composition, teams can end up with:
 - a learning that loses its link to the slice that generated it
 
 The work-slice pattern makes that chain easier to read without inflating the framework core.
+
+A Work Slice may cross more than one theme or concern without requiring formal handoff.
+
+Explicit coordination becomes necessary only when the slice crosses an Operational Boundary.
 
 ---
 

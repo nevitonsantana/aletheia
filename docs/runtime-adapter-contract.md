@@ -25,6 +25,16 @@ The goal is to define the smallest shared shape that later local adapters can ma
 
 ## Relationship to existing surfaces
 
+This document defines a runtime-facing adapter shape, not the full canonical meaning of Execution Surface.
+
+Execution Surface is the broader canonical term.
+A runtime adapter is one specific way of preserving AletheIA meaning on such a surface.
+
+See:
+
+- `docs/canonical-vocabulary.md`
+- `docs/adapter-taxonomy.md`
+
 This contract builds directly on:
 
 - `docs/context-resource-telemetry-spec.md`

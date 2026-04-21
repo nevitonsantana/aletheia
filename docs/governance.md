@@ -110,13 +110,17 @@ Pode ser:
 
 #### Work Item
 
-É a unidade mínima de trabalho governável.
+A Work Item is the official governed unit of work in AletheIA.
 
-Idealmente, ele deve ter:
+It is tracker-agnostic by design.
 
-- um objetivo
-- um output claro
-- limites explícitos
+A GitHub issue may represent a Work Item in one project, but the framework does not depend on GitHub or any other specific tracker to define the concept.
+
+A Work Item should keep an objective, an expected outcome, a governing context, and a local lifecycle state explicit enough to be reviewed and resumed.
+
+For canonical vocabulary, see:
+
+- `docs/canonical-vocabulary.md`
 
 #### Authoritative Layer
 

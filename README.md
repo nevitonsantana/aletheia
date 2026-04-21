@@ -63,6 +63,12 @@ AletheIA is:
 - built to be reusable across projects
 - designed for structured decision-making before execution
 
+AletheIA also keeps a stable canonical vocabulary across trackers, agent surfaces, handoff formats, and runtime-facing records.
+
+See:
+
+- `docs/canonical-vocabulary.md`
+
 ## What this is not
 
 AletheIA is not:
@@ -196,6 +202,7 @@ See also:
 If this is your first time here, start with:
 
 1. `docs/getting-started.md`
+1. `docs/canonical-vocabulary.md`
 1. `docs/00-overview.md`
 1. `docs/roadmap-alpha.md`
 1. `docs/release-1.0-readiness.md`

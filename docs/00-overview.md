@@ -35,6 +35,24 @@ The public repository is organized around four blocks:
 
 ---
 
+## Canonical vocabulary
+
+AletheIA defines a stable public vocabulary for its core operational terms.
+
+That vocabulary exists so local trackers, agent surfaces, handoff artifacts, and runtime-facing records do not quietly redefine framework meaning.
+
+Use as the terminology anchor:
+
+- `docs/canonical-vocabulary.md`
+
+A Work Item is the official governed unit of work.
+
+A Work Slice is a bounded operational composition that helps make progress inside or around a Work Item.
+
+An Operational Boundary is the point where continuity can no longer remain implicit and explicit coordination becomes necessary.
+
+---
+
 ## Current phase
 
 AletheIA is now in its **1.0 baseline phase**.

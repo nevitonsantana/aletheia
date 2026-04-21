@@ -7,6 +7,15 @@ Define a manual-first way to close a work slice cleanly, preserve continuity thr
 This is not a "clear chat" feature.
 It is a slice-finalization capability.
 
+In canonical AletheIA vocabulary:
+
+- a Restart Package is the continuity artifact used when work must resume across a real boundary
+- that boundary should be understood as an Operational Boundary, not as thematic crossing by itself
+
+For canonical terminology, see:
+
+- `docs/canonical-vocabulary.md`
+
 ---
 
 ## Why this exists
@@ -68,6 +77,8 @@ A healthy slice finalization should follow this order:
 
 The goal is not to restart by habit.
 The goal is to restart when continuing in the same session would now carry more drag than value.
+
+A Restart Package is justified when continuity can no longer remain implicit, not merely because the work touched more than one concern.
 
 ---
 

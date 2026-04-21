@@ -34,11 +34,12 @@ Most readers should start in one of these modes:
 
 Read in this order:
 
-1. `docs/00-overview.md`
-2. `docs/governance.md`
-3. `docs/token-policy.md`
-4. `docs/durable-decisions.md`
-5. `docs/enforcement-boundaries.md`
+1. `docs/canonical-vocabulary.md`
+2. `docs/00-overview.md`
+3. `docs/governance.md`
+4. `docs/token-policy.md`
+5. `docs/durable-decisions.md`
+6. `docs/enforcement-boundaries.md`
 
 ### 2. I want to try the framework quickly
 
@@ -71,6 +72,10 @@ into this:
 `intent -> context -> decision -> execution -> validation -> learning`
 
 If you understand that shift, you already understand the core idea of the framework.
+
+If you are unsure what counts as a Work Item, Work Slice, Restart Package, or Execution Surface, read:
+
+- `docs/canonical-vocabulary.md`
 
 ---
 
