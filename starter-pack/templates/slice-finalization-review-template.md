@@ -2,6 +2,8 @@
 
 ## Slice
 
+- Project:
+- Official work item:
 - Slice ID:
 - Related Work Item:
 - Validation status:
@@ -33,6 +35,11 @@
 - Runtime-local clean-start action available: `yes | no`
 - What was delivered:
 - Evidence:
+- What was effectively proved:
+- Do not reopen:
+- Next official step:
+- Open new execution surface: `yes | no`
+- Why:
 - Known constraints:
 - Why the next step should stay on the current surface or restart cleanly:
 
@@ -40,12 +47,18 @@
 
 <!-- RESTART_PACKAGE_BEGIN -->
 ## Context for Clean Restart
+- **Project:**
+- **Official Work Item:**
 - **Slice ID:**
 - **Related Work Item:**
 - **Validation Status:**
 - **Mission Focus:**
 - **Resume Entrypoint:**
 - **Last Boundary Summary:**
+- **Do Not Reopen:**
+- **Next Official Step:**
+- **Open New Execution Surface:** `yes | no`
+- **Why:**
 - **Next Immediate Action:**
 - **Known Constraints:**
 - **Governing Context Refs:**

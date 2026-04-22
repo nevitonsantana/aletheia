@@ -268,9 +268,11 @@ If this is your first time here, start with:
 1. `docs/slice-finalization-and-restart.md`
 1. `starter-pack/templates/slice-finalization-review-template.md`
 1. `examples/resource-aware-operations/slice-finalization-reference.md`
+1. `starter-pack/templates/restart-bootstrap-prompt-template.md`
+1. note: finalization and restart now require a compact `Finalization Context Prompt` that identifies the project, names the official work item when available, states what must not be reopened, and explicitly says whether the next step should open a new execution surface
+1. `docs/durable-decision-finalization-context-prompt.md`
 1. `starter-pack/guides/clean-restart-command-adapters.md`
 1. `docs/github-project-operations.md`
-1. `starter-pack/templates/restart-bootstrap-prompt-template.md`
 1. `examples/resource-aware-operations/clean-restart-command-adapter-example.md`
 1. `docs/project-local-constitution-context.md`
 1. `docs/architecture.md`

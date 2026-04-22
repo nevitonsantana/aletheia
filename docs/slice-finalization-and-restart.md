@@ -166,18 +166,70 @@ For this version, the operator-facing artifact should include a copyable markdow
 ```md
 <!-- RESTART_PACKAGE_BEGIN -->
 ## Context for Clean Restart
+- **Project:** ...
+- **Official Work Item:** ...
 - **Slice ID:** ...
 - **Related Work Item:** ...
 - **Validation Status:** ...
 - **Mission Focus:** ...
 - **Resume Entrypoint:** ...
 - **Last Boundary Summary:** ...
+- **Do Not Reopen:** ...
+- **Next Official Step:** ...
+- **Open New Execution Surface:** `yes | no`
+- **Why:** ...
 - **Next Immediate Action:** ...
 - **Known Constraints:** ...
 - **Governing Context Refs:** ...
 - **Governing Context Delta:** ...
 <!-- RESTART_PACKAGE_END -->
 ```
+
+### Required continuity rule
+
+Every finalization-ready slice should leave a **Finalization Context Prompt** that is:
+
+- short
+- copyable
+- project-identified
+- explicit about whether the next action should open a new execution surface
+
+This exists to reduce:
+
+- token waste
+- memory dependence
+- transcript replay
+- accidental reopening of the closed slice
+
+The package must therefore answer:
+
+1. what project or system this belongs to
+2. what official work item anchors the slice when an adapter exists
+3. what was proved enough to close the slice
+4. what must not be reopened
+5. what the next official step is
+6. whether the next action should open a new clean execution surface, and why
+
+### New execution-surface rule
+
+The restart package must explicitly say:
+
+- `Open New Execution Surface: yes`
+- or `Open New Execution Surface: no`
+
+and give a one-line reason.
+
+Use `yes` when:
+
+- the next step belongs to a new slice
+- the next step crosses a new executor, tool, contract, risk, or ownership boundary
+- carrying the current transcript would cost more than it helps
+
+Use `no` when:
+
+- the next step is still inside the same bounded slice
+- no meaningful boundary changed
+- continuing locally is cheaper and clearer than restarting
 
 ---
 

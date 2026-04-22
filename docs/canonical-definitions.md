@@ -138,12 +138,18 @@ A minimal WorkSlice should make explicit:
 
 A minimal RestartPackage should make explicit:
 
+- `project_ref`
+- `official_work_item_ref`
 - `slice_id`
 - `validation_status`
 - `mission_focus`
 - `resume_entrypoint`
 - `last_boundary_summary`
 - `next_immediate_action`
+- `do_not_reopen`
+- `next_official_step`
+- `new_execution_surface`
+- `new_execution_surface_reason`
 - `known_constraints`
 - `governing_context_refs`
 - `governing_context_delta`
