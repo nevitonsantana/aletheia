@@ -101,6 +101,10 @@ Recommended forms:
 - ADR-style markdown
 - decision appendix inside a roadmap or governance doc
 
+Current example:
+
+- `docs/durable-decision-finalization-context-prompt.md`
+
 The important part is not the label.
 The important part is that future contributors can find and understand the reasoning.
 

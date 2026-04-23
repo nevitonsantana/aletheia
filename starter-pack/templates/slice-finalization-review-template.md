@@ -2,7 +2,10 @@
 
 ## Slice
 
+- Project:
+- Official work item:
 - Slice ID:
+- Related Work Item:
 - Validation status:
 - Handoff ref: (`not_needed` if not applicable)
 - Next action:
@@ -10,10 +13,10 @@
 
 ## Finalization outcome
 
-- Finalization outcome: `continue-in-session | recommend-clean-restart | review-required | not-ready`
+- Finalization outcome: `continue-on-current-surface | recommend-clean-restart | review-required | not-ready`
 - Reason:
-- Clean-thread signal before next issue: `not_needed | recommended | required`
-- Operator note if clean thread is required:
+- Clean execution-surface signal before next boundary: `not_needed | recommended | required`
+- Operator note if a clean execution surface is required:
 
 ## AI Fatigue Read
 
@@ -28,24 +31,36 @@
 
 ## Validation and continuity notes
 
-- Next issue / next bounded slice starts in fresh thread: `yes | no`
-- Local clear-thread action available: `yes | no`
+- Next bounded slice starts on a clean execution surface: `yes | no`
+- Runtime-local clean-start action available: `yes | no`
 - What was delivered:
 - Evidence:
+- What was effectively proved:
+- Do not reopen:
+- Next official step:
+- Open new execution surface: `yes | no`
+- Why:
 - Known constraints:
-- Why the next step is still in-session or should restart cleanly:
+- Why the next step should stay on the current surface or restart cleanly:
 
 ## Restart Package
 
 <!-- RESTART_PACKAGE_BEGIN -->
 ## Context for Clean Restart
+- **Project:**
+- **Official Work Item:**
 - **Slice ID:**
+- **Related Work Item:**
 - **Validation Status:**
 - **Mission Focus:**
-- **Active Spec / Entrypoint:**
-- **Last Handoff Summary:**
+- **Resume Entrypoint:**
+- **Last Boundary Summary:**
+- **Do Not Reopen:**
+- **Next Official Step:**
+- **Open New Execution Surface:** `yes | no`
+- **Why:**
 - **Next Immediate Action:**
 - **Known Constraints:**
-- **Governing Context Version:**
+- **Governing Context Refs:**
 - **Governing Context Delta:**
 <!-- RESTART_PACKAGE_END -->
