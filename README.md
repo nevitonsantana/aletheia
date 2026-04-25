@@ -193,6 +193,14 @@ For the roadmap and release framing, see:
 - `docs/runtime-adapter-contract.md`
 - `docs/agent-runtime-decision-guide.md`
 
+### Inspect the Hermes pre-pilot guardrails
+
+- `docs/adr/ADR-001-hermes-role.md`
+- `docs/adr/ADR-002-memory-and-skill-promotion-policy.md`
+- `docs/hermes/phase-minus-1-operational-matrix.md`
+- `starter-pack/templates/hermes-closeout-template.md`
+- `docs/hermes/manual-simulation-closeout.md`
+
 ---
 
 ## Design principles
